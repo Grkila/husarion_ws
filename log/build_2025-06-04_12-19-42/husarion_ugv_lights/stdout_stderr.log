@@ -1,0 +1,185 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found diagnostic_updater: 4.2.4 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+-- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+-- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /husarion_ws/build/husarion_ugv_lights
+[  4%] Building CXX object CMakeFiles/animation_plugins.dir/src/animation/image_animation.cpp.o
+[  9%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/src/lights_driver_parameters.yaml `
+[ 14%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/src/lights_controller_parameters.yaml `
+[ 19%] Building CXX object CMakeFiles/animation_plugins.dir/src/animation/moving_image_animation.cpp.o
+[ 23%] Building CXX object CMakeFiles/lights_controller_node.dir/rclcpp_components/node_main_lights_controller_node.cpp.o
+[ 28%] Building CXX object CMakeFiles/lights_driver_node.dir/rclcpp_components/node_main_lights_driver_node.cpp.o
+[ 33%] Creating deprecated header file /husarion_ws/build/husarion_ugv_lights/include/lights_driver_parameters.hpp
+[ 38%] Creating deprecated header file /husarion_ws/build/husarion_ugv_lights/include/lights_controller_parameters.hpp
+[ 38%] Built target lights_driver_parameters
+[ 42%] Building CXX object CMakeFiles/lights_driver_node_component.dir/src/lights_driver_node.cpp.o
+[ 42%] Built target lights_controller_parameters
+[ 47%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/lights_controller_node.cpp.o
+[ 52%] Linking CXX executable lights_driver_node
+[ 52%] Built target lights_driver_node
+[ 57%] Building CXX object CMakeFiles/lights_driver_node_component.dir/src/apa102.cpp.o
+[ 61%] Linking CXX executable lights_controller_node
+[ 61%] Built target lights_controller_node
+[ 66%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/led_segment.cpp.o
+[ 71%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/led_panel.cpp.o
+[ 76%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_converter.cpp.o
+[ 80%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_layer.cpp.o
+[ 85%] Building CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_queue_layer.cpp.o
+[ 90%] Linking CXX shared library libanimation_plugins.so
+[ 90%] Built target animation_plugins
+[ 95%] Linking CXX shared library liblights_controller_node_component.so
+[ 95%] Built target lights_controller_node_component
+[100%] Linking CXX shared library liblights_driver_node_component.so
+[100%] Built target lights_driver_node_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_driver_node
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_controller_node
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/blinker.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/critical_battery.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/empty.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/error.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/low_battery.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/lynx_animations.svg
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/blinker.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/critical_battery.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/empty.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/error.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/low_battery.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/panther_animations.svg
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_front.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_rear.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_animations.yaml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_driver.yaml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_animations.yaml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_driver.yaml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/user_animations.yaml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/launch/lights.launch.py
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/files/animation.png
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/integration/husarion_ugv_lights.test.py
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_animation.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_image_animation.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_moving_image_animation.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_animation.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_panel.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_segment.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_converter.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_layer_interface.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_apa102.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_controller_node.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_driver_node.cpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/animation.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/image_animation.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/moving_image_animation.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/apa102.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_animation.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_panel.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_segment.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_converter.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer_interface.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_queue_layer.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_controller_node.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_driver_node.hpp
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.sh
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.dsv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_lights
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_lights
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.sh
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.dsv
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.sh
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.dsv
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.bash
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.sh
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.zsh
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.dsv
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.dsv
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/packages/husarion_ugv_lights
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/husarion_ugv_lights__pluginlib__plugin/husarion_ugv_lights
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/rclcpp_components/husarion_ugv_lights
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig.cmake
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig-version.cmake
+-- Symlinking: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.xml
+-- Installing: /husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so
+-- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so" to ""
+-- Installing: /husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so
+-- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so" to ""
+-- Installing: /husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so
+-- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so" to ""
+-- Installing: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport-release.cmake

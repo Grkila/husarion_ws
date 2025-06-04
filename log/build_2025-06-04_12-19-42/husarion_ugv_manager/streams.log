@@ -1,0 +1,147 @@
+[0.040s] Invoking command in '/husarion_ws/build/husarion_ugv_manager': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_manager
+[0.158s] -- The C compiler identification is GNU 13.3.0
+[0.260s] -- The CXX compiler identification is GNU 13.3.0
+[0.277s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.397s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.540s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.767s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.958s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.025s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[1.032s] -- Found behaviortree_cpp: 4.7.1 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+[1.036s] -- Found behaviortree_ros2: 0.2.0 (/husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake)
+[1.152s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.203s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.423s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.429s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.598s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.650s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.108s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.191s] -- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+[2.214s] -- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+[2.546s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.611s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.670s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.686s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.686s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.686s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.293s] -- Configuring done (3.2s)
+[3.584s] -- Generating done (0.2s)
+[3.622s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_manager
+[3.639s] Invoked command in '/husarion_ws/build/husarion_ugv_manager' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_manager
+[3.642s] Invoking command in '/husarion_ws/build/husarion_ugv_manager': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_manager -- -j6 -l6
+[3.777s] [  3%] Building CXX object CMakeFiles/call_set_bool_service_bt_node.dir/src/plugins/action/call_set_bool_service_node.cpp.o
+[3.779s] [  7%] Building CXX object CMakeFiles/call_trigger_service_bt_node.dir/src/plugins/action/call_trigger_service_node.cpp.o
+[3.791s] [ 10%] Building CXX object CMakeFiles/signal_shutdown_bt_node.dir/src/plugins/action/signal_shutdown_node.cpp.o
+[3.800s] [ 14%] Building CXX object CMakeFiles/check_bool_msg_bt_node.dir/src/plugins/condition/check_bool_msg.cpp.o
+[3.802s] [ 17%] Building CXX object CMakeFiles/call_set_led_animation_service_bt_node.dir/src/plugins/action/call_set_led_animation_service_node.cpp.o
+[3.816s] [ 21%] Building CXX object CMakeFiles/shutdown_hosts_from_file_bt_node.dir/src/plugins/action/shutdown_hosts_from_file_node.cpp.o
+[11.854s] [ 25%] Linking CXX shared library libsignal_shutdown_bt_node.so
+[12.301s] [ 25%] Built target signal_shutdown_bt_node
+[12.353s] [ 28%] Building CXX object CMakeFiles/check_joy_msg_bt_node.dir/src/plugins/condition/check_joy_msg.cpp.o
+[17.868s] [ 32%] Linking CXX shared library libshutdown_hosts_from_file_bt_node.so
+[19.246s] [ 32%] Built target shutdown_hosts_from_file_bt_node
+[19.885s] [ 35%] Linking CXX shared library libcall_set_led_animation_service_bt_node.so
+[19.897s] [ 39%] Linking CXX shared library libcall_trigger_service_bt_node.so
+[20.329s] [ 39%] Built target call_set_led_animation_service_bt_node
+[20.352s] [ 39%] Built target call_trigger_service_bt_node
+[20.435s] [ 42%] Linking CXX shared library libcall_set_bool_service_bt_node.so
+[20.667s] [ 42%] Built target call_set_bool_service_bt_node
+[25.808s] [ 46%] Linking CXX shared library libcheck_bool_msg_bt_node.so
+[26.048s] [ 46%] Built target check_bool_msg_bt_node
+[26.068s] [ 50%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/src/lights_manager_parameters.yaml `
+[26.911s] [ 53%] Creating deprecated header file /husarion_ws/build/husarion_ugv_manager/include/lights_manager_parameters.hpp
+[26.979s] [ 53%] Built target lights_manager_parameters
+[27.002s] [ 57%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/src/safety_manager_parameters.yaml `
+[27.788s] [ 60%] Creating deprecated header file /husarion_ws/build/husarion_ugv_manager/include/safety_manager_parameters.hpp
+[27.846s] [ 60%] Built target safety_manager_parameters
+[27.870s] [ 64%] Building CXX object CMakeFiles/execute_command_bt_node.dir/src/plugins/action/execute_command_node.cpp.o
+[31.523s] [ 67%] Linking CXX shared library libcheck_joy_msg_bt_node.so
+[31.735s] [ 67%] Built target check_joy_msg_bt_node
+[31.770s] [ 71%] Building CXX object CMakeFiles/tick_after_timeout_bt_node.dir/src/plugins/decorator/tick_after_timeout_node.cpp.o
+[33.785s] [ 75%] Linking CXX shared library libexecute_command_bt_node.so
+[33.969s] [ 75%] Built target execute_command_bt_node
+[35.049s] [ 78%] Linking CXX shared library libtick_after_timeout_bt_node.so
+[35.187s] [ 78%] Built target tick_after_timeout_bt_node
+[35.213s] [ 82%] Building CXX object CMakeFiles/lights_manager_node.dir/src/lights_manager_node_main.cpp.o
+[35.214s] [ 85%] Building CXX object CMakeFiles/safety_manager_node.dir/src/safety_manager_node.cpp.o
+[35.214s] [ 92%] Building CXX object CMakeFiles/lights_manager_node.dir/src/lights_manager_node.cpp.o
+[35.214s] [ 92%] Building CXX object CMakeFiles/safety_manager_node.dir/src/safety_manager_node_main.cpp.o
+[56.211s] [ 96%] Linking CXX executable lights_manager_node
+[56.534s] [ 96%] Built target lights_manager_node
+[62.015s] [100%] Linking CXX executable safety_manager_node
+[62.377s] [100%] Built target safety_manager_node
+[62.389s] Invoked command in '/husarion_ws/build/husarion_ugv_manager' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_manager -- -j6 -l6
+[62.391s] Invoking command in '/husarion_ws/build/husarion_ugv_manager': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_manager
+[62.401s] -- Install configuration: "Release"
+[62.401s] -- Execute custom install script
+[62.401s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp
+[62.411s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp
+[62.422s] -- Up-to-date symlink: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp
+[62.422s] -- Up-to-date symlink: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp
+[62.423s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libcall_set_bool_service_bt_node.so
+[62.440s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libcall_trigger_service_bt_node.so
+[62.449s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libcall_set_led_animation_service_bt_node.so
+[62.458s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libsignal_shutdown_bt_node.so
+[62.468s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libshutdown_hosts_from_file_bt_node.so
+[62.478s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libcheck_bool_msg_bt_node.so
+[62.487s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libcheck_joy_msg_bt_node.so
+[62.497s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libtick_after_timeout_bt_node.so
+[62.513s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/libexecute_command_bt_node.so
+[62.523s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/husarion_ugv_manager/safety_manager_node
+[62.532s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/lib/husarion_ugv_manager/lights_manager_node
+[62.549s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/LightsBT.btproj
+[62.561s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/SafetyBT.btproj
+[62.570s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/lights.xml
+[62.586s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/safety.xml
+[62.595s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/shutdown.xml
+[62.605s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/lights_manager.yaml
+[62.614s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/safety_manager.yaml
+[62.625s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/shutdown_hosts.yaml
+[62.637s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/launch/manager.launch.py
+[62.648s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/behavior_tree_manager.hpp
+[62.658s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/behavior_tree_utils.hpp
+[62.672s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/lights_manager_node.hpp
+[62.682s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_set_bool_service_node.hpp
+[62.691s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_set_led_animation_service_node.hpp
+[62.701s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_trigger_service_node.hpp
+[62.710s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/execute_command_node.hpp
+[62.723s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/shutdown_hosts_from_file_node.hpp
+[62.733s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/signal_shutdown_node.hpp
+[62.744s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/command_handler.hpp
+[62.753s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/condition/check_bool_msg.hpp
+[62.761s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/condition/check_joy_msg.hpp
+[62.776s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/decorator/tick_after_timeout_node.hpp
+[62.787s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/shutdown_host.hpp
+[62.796s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/shutdown_hosts_node.hpp
+[62.805s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/safety_manager_node.hpp
+[62.815s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/test/utils/behavior_tree_test_utils.hpp
+[62.825s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/test/utils/plugin_test_utils.hpp
+[62.834s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_manager
+[62.844s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_manager
+[62.854s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/ament_prefix_path.sh
+[62.870s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/ament_prefix_path.dsv
+[62.890s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/path.sh
+[62.907s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/path.dsv
+[62.916s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.bash
+[62.934s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.sh
+[62.943s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.zsh
+[62.951s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.dsv
+[62.960s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/package.dsv
+[62.969s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/packages/husarion_ugv_manager
+[62.978s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.992s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.008s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/husarion_ugv_managerConfig.cmake
+[63.017s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/husarion_ugv_managerConfig-version.cmake
+[63.032s] -- Symlinking: /husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/package.xml
+[63.044s] Invoked command in '/husarion_ws/build/husarion_ugv_manager' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_manager

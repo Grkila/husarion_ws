@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fa6aec599529763e42e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "husarion_ugv_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "call_set_bool_service_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-call_set_bool_service_bt_node-Release-942e94b0f0680dd501d8.json",
+					"name" : "call_set_bool_service_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "call_set_led_animation_service_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-call_set_led_animation_service_bt_node-Release-50e3e3e861e843b519ac.json",
+					"name" : "call_set_led_animation_service_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "call_trigger_service_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-call_trigger_service_bt_node-Release-4d2f7c0f415cee074772.json",
+					"name" : "call_trigger_service_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check_bool_msg_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check_bool_msg_bt_node-Release-a62fd5432b0f4406091d.json",
+					"name" : "check_bool_msg_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check_joy_msg_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check_joy_msg_bt_node-Release-f35b65f9910150dfaca3.json",
+					"name" : "check_joy_msg_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "execute_command_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-execute_command_bt_node-Release-4c3d0fa110540834cc7b.json",
+					"name" : "execute_command_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_manager_uninstall-Release-6ddc7c4288b90d1c9e8b.json",
+					"name" : "husarion_ugv_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lights_manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lights_manager_node-Release-95c7e849e69705bc4bea.json",
+					"name" : "lights_manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lights_manager_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lights_manager_parameters-Release-83b1eef0722d5280f8cb.json",
+					"name" : "lights_manager_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safety_manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safety_manager_node-Release-148fe97a6cad07856129.json",
+					"name" : "safety_manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safety_manager_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safety_manager_parameters-Release-0a06eb28d2760d769bec.json",
+					"name" : "safety_manager_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutdown_hosts_from_file_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutdown_hosts_from_file_bt_node-Release-18bd2d03867478a550ce.json",
+					"name" : "shutdown_hosts_from_file_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signal_shutdown_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signal_shutdown_bt_node-Release-6b7a831b1232eb30dd16.json",
+					"name" : "signal_shutdown_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tick_after_timeout_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tick_after_timeout_bt_node-Release-cadeafb21deb81915153.json",
+					"name" : "tick_after_timeout_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-08615680ab6e477c4ced.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/husarion_ws/build/husarion_ugv_manager",
+		"source" : "/husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

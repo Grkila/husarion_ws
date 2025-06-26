@@ -1,0 +1,81 @@
+[0.019s] Invoking command in '/husarion_ws/build/husarion_ugv_description': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_description -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_description
+[0.078s] -- The C compiler identification is GNU 13.3.0
+[0.134s] -- The CXX compiler identification is GNU 13.3.0
+[0.153s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.387s] -- Detecting CXX compile features
+[0.388s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.773s] -- Configuring done (0.7s)
+[0.776s] -- Generating done (0.0s)
+[0.778s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_description
+[0.783s] Invoked command in '/husarion_ws/build/husarion_ugv_description' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_description -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_description
+[0.783s] Invoking command in '/husarion_ws/build/husarion_ugv_description': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_description -- -j6 -l6
+[0.826s] Invoked command in '/husarion_ws/build/husarion_ugv_description' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_description -- -j6 -l6
+[0.826s] Invoking command in '/husarion_ws/build/husarion_ugv_description': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_description
+[0.835s] -- Install configuration: "Release"
+[0.835s] -- Execute custom install script
+[0.836s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/config/WH01.yaml
+[0.859s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/config/WH02.yaml
+[0.859s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/config/WH04.yaml
+[0.866s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/config/WH05.yaml
+[0.876s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/config/components.yaml
+[0.886s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/launch/load_urdf.launch.py
+[0.896s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/launch/overwrite_robot_description.launch.py
+[0.906s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/launch/rviz.launch.py
+[0.916s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/launch/visualize_fake_robot.launch.py
+[0.929s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH01/fl_wheel.dae
+[0.939s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH01/fr_wheel.dae
+[0.950s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH01/rl_wheel.dae
+[0.959s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH01/rr_wheel.dae
+[0.969s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH02/fl_wheel.dae
+[0.978s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH02/fr_wheel.dae
+[0.987s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH02/rl_wheel.dae
+[0.997s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH02/rr_wheel.dae
+[1.006s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH04/fl_wheel.dae
+[1.016s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH04/fr_wheel.dae
+[1.026s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH04/rl_wheel.dae
+[1.036s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH04/rr_wheel.dae
+[1.046s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH05/fl_wheel.dae
+[1.056s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH05/fr_wheel.dae
+[1.066s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH05/rl_wheel.dae
+[1.076s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/WH05/rr_wheel.dae
+[1.085s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/lynx/base.dae
+[1.096s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/lynx/base_collision.dae
+[1.106s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/panther/base.dae
+[1.115s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/meshes/panther/base_collision.stl
+[1.125s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/rviz/husarion_ugv.rviz
+[1.135s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/rviz/robot_model.rviz
+[1.145s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/common/gazebo.urdf.xacro
+[1.158s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/common/wheel.urdf.xacro
+[1.166s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/lynx.urdf.xacro
+[1.176s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/lynx/base.urdf.xacro
+[1.185s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/lynx/lynx_macro.urdf.xacro
+[1.195s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/panther.urdf.xacro
+[1.206s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/panther/base.urdf.xacro
+[1.216s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/urdf/panther/panther_macro.urdf.xacro
+[1.224s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/environment/setup_envs.sh
+[1.233s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_description
+[1.243s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_description
+[1.253s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/environment/ament_prefix_path.sh
+[1.263s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/environment/ament_prefix_path.dsv
+[1.277s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/environment/path.sh
+[1.287s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/environment/path.dsv
+[1.296s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/local_setup.bash
+[1.306s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/local_setup.sh
+[1.316s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/local_setup.zsh
+[1.326s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/local_setup.dsv
+[1.336s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/package.dsv
+[1.347s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/ament_index/resource_index/packages/husarion_ugv_description
+[1.357s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/cmake/husarion_ugv_descriptionConfig.cmake
+[1.366s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/cmake/husarion_ugv_descriptionConfig-version.cmake
+[1.376s] -- Symlinking: /husarion_ws/install/husarion_ugv_description/share/husarion_ugv_description/package.xml
+[1.388s] Invoked command in '/husarion_ws/build/husarion_ugv_description' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/ros_components_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/ros_components_description/share:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_description

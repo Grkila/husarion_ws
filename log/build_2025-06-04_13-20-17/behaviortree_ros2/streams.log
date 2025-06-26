@@ -1,0 +1,83 @@
+[0.014s] Invoking command in '/husarion_ws/build/behaviortree_ros2': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/behaviortree_ros2/behaviortree_ros2 -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/behaviortree_ros2
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.126s] -- The CXX compiler identification is GNU 13.3.0
+[0.149s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.276s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.756s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.813s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.832s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.977s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.982s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.126s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.240s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.293s] -- Found behaviortree_cpp: 4.7.1 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+[1.296s] -- Found btcpp_ros2_interfaces: 0.2.0 (/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake)
+[1.320s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.327s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.355s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.488s] -- Configuring done (1.5s)
+[1.501s] -- Generating done (0.0s)
+[1.505s] -- Build files have been written to: /husarion_ws/build/behaviortree_ros2
+[1.515s] Invoked command in '/husarion_ws/build/behaviortree_ros2' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/behaviortree_ros2/behaviortree_ros2 -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/behaviortree_ros2
+[1.516s] Invoking command in '/husarion_ws/build/behaviortree_ros2': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/behaviortree_ros2 -- -j6 -l6
+[1.576s] [ 16%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/behaviortree_ros2/include/behaviortree_ros2/bt_executor_parameters.hpp /husarion_ws/src/behaviortree_ros2/behaviortree_ros2/src/bt_executor_parameters.yaml `
+[2.299s] [ 33%] Creating deprecated header file /husarion_ws/build/behaviortree_ros2/include/bt_executor_parameters.hpp
+[2.352s] [ 33%] Built target bt_executor_parameters
+[2.376s] [ 83%] Building CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_utils.cpp.o
+[2.376s] [ 83%] Building CXX object CMakeFiles/behaviortree_ros2.dir/src/tree_execution_server.cpp.o
+[2.376s] [ 83%] Building CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros2.cpp.o
+[11.501s] [100%] Linking CXX static library libbehaviortree_ros2.a
+[11.591s] [100%] Built target behaviortree_ros2
+[11.619s] Invoked command in '/husarion_ws/build/behaviortree_ros2' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/behaviortree_ros2 -- -j6 -l6
+[11.619s] Invoking command in '/husarion_ws/build/behaviortree_ros2': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/behaviortree_ros2
+[11.635s] -- Install configuration: "Release"
+[11.639s] -- Execute custom install script
+[11.639s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include/behaviortree_ros2/bt_executor_parameters.hpp
+[11.662s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_action_node.hpp
+[11.678s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_service_node.hpp
+[11.698s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_topic_pub_node.hpp
+[11.720s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_topic_sub_node.hpp
+[11.745s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/bt_utils.hpp
+[11.767s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/plugins.hpp
+[11.788s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/ros_node_params.hpp
+[11.807s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/include//behaviortree_ros2/tree_execution_server.hpp
+[11.818s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/library_path.sh
+[11.829s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/library_path.dsv
+[11.842s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/ament_index/resource_index/package_run_dependencies/behaviortree_ros2
+[11.850s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/ament_index/resource_index/parent_prefix_path/behaviortree_ros2
+[11.861s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/ament_prefix_path.sh
+[11.872s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/ament_prefix_path.dsv
+[11.883s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/path.sh
+[11.893s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/environment/path.dsv
+[11.904s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.bash
+[11.914s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.sh
+[11.924s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.zsh
+[11.935s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/local_setup.dsv
+[11.948s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.dsv
+[11.957s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/ament_index/resource_index/packages/behaviortree_ros2
+[11.968s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.979s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[11.990s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.000s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[12.011s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2Config.cmake
+[12.021s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2Config-version.cmake
+[12.031s] -- Symlinking: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.xml
+[12.043s] -- Installing: /husarion_ws/install/behaviortree_ros2/lib/libbehaviortree_ros2.a
+[12.043s] -- Installing: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2TargetsExport.cmake
+[12.043s] -- Installing: /husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2TargetsExport-release.cmake
+[12.045s] Invoked command in '/husarion_ws/build/behaviortree_ros2' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/behaviortree_ros2

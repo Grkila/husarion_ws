@@ -1,0 +1,116 @@
+[0.019s] Invoking command in '/husarion_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/ros_components_description -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/ros_components_description
+[0.195s] -- The C compiler identification is GNU 13.3.0
+[0.360s] -- The CXX compiler identification is GNU 13.3.0
+[0.381s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.499s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.499s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.511s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.641s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.811s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.092s] -- Configuring done (1.1s)
+[1.095s] -- Generating done (0.0s)
+[1.100s] -- Build files have been written to: /husarion_ws/build/ros_components_description
+[1.102s] Invoked command in '/husarion_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/ros_components_description -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/ros_components_description
+[1.102s] Invoking command in '/husarion_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/ros_components_description -- -j6 -l6
+[1.144s] Invoked command in '/husarion_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/ros_components_description -- -j6 -l6
+[1.144s] Invoking command in '/husarion_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/ros_components_description
+[1.153s] -- Install configuration: "Release"
+[1.153s] -- Execute custom install script
+[1.154s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev01.dae
+[1.163s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev02.dae
+[1.173s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev03.dae
+[1.182s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev04h.dae
+[1.192s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev04l.dae
+[1.201s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev05.dae
+[1.211s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev06.dae
+[1.222s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev07.dae
+[1.233s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev07t.dae
+[1.242s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/devs/dev09.dae
+[1.251s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae
+[1.262s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae
+[1.271s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os01.dae
+[1.281s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/rplidar/a2m8.dae
+[1.291s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/rplidar/ax.dae
+[1.301s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/rplidar/s1.dae
+[1.311s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/rplidar/s2.dae
+[1.323s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/rplidar/s3.dae
+[1.331s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zed.stl
+[1.340s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zed2.stl
+[1.353s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zed2i.stl
+[1.366s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zedm.stl
+[1.375s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zedx.stl
+[1.387s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/stereolabs/zedxm.stl
+[1.394s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/teltonika_003R-00253.dae
+[1.403s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/teltonika_003R-00253_collision.stl
+[1.413s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae
+[1.422s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/wibotic_receiver.stl
+[1.431s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/meshes/wibotic_station.stl
+[1.440s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/components.urdf.xacro
+[1.449s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/dev.urdf.xacro
+[1.459s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/gz_sensor.urdf.xacro
+[1.467s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro
+[1.476s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/kinova.urdf.xacro
+[1.485s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/luxonis_depthai.urdf.xacro
+[1.495s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro
+[1.509s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/ouster.urdf.xacro
+[1.516s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/robotiq.urdf.xacro
+[1.528s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar.urdf.xacro
+[1.537s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/stereolabs_zed.urdf.xacro
+[1.547s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/teltonika_003R-00253.urdf.xacro
+[1.557s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/ur.urdf.xacro
+[1.566s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro
+[1.578s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/wibotic_receiver.urdf.xacro
+[1.589s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/urdf/wibotic_station.urdf.xacro
+[1.600s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_components.launch.py
+[1.612s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_intel_realsense_d435.launch.py
+[1.620s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_6dof.launch.py
+[1.631s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_kinova_7dof.launch.py
+[1.640s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_luxonis_depthai.launch.py
+[1.650s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_orbbec_astra.launch.py
+[1.660s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_ouster_os.launch.py
+[1.671s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_robotiq.launch.py
+[1.684s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_slamtec_rplidar.launch.py
+[1.690s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_stereolabs_zed.launch.py
+[1.703s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_teltonika.launch.py
+[1.709s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_ur.launch.py
+[1.719s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_velodyne.launch.py
+[1.729s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/launch/gz_wibotic_station.launch.py
+[1.738s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_intel_realsense_d435_remappings.yaml
+[1.748s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_kinova_remappings.yaml
+[1.758s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_luxonis_depthai_remappings.yaml
+[1.768s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_orbbec_astra_remappings.yaml
+[1.780s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_ouster_os_remappings.yaml
+[1.789s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_slamtec_rplidar_remappings.yaml
+[1.800s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_stereolabs_zed_remappings.yaml
+[1.810s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_teltonika_remappings.yaml
+[1.820s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/gz_velodyne_remappings.yaml
+[1.831s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/kinova_6dof_controllers.yaml
+[1.841s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/kinova_7dof_controllers.yaml
+[1.852s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/robotiq_controllers.yaml
+[1.862s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/config/ur_controllers.yaml
+[1.872s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/test/component.urdf.xacro
+[1.882s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/test/test_components_xacro.py
+[1.890s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/environment/ros_components_description.sh
+[1.900s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description
+[1.911s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description
+[1.922s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh
+[1.929s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv
+[1.938s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/environment/path.sh
+[1.948s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv
+[1.958s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/local_setup.bash
+[1.968s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/local_setup.sh
+[1.978s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh
+[1.988s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv
+[1.998s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/package.dsv
+[2.008s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description
+[2.019s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake
+[2.029s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake
+[2.039s] -- Symlinking: /husarion_ws/install/ros_components_description/share/ros_components_description/package.xml
+[2.050s] Invoked command in '/husarion_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/ros_components_description

@@ -1,0 +1,351 @@
+[0.043s] Invoking command in '/husarion_ws/build/husarion_ugv_gazebo': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_gazebo -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_gazebo
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.168s] -- The CXX compiler identification is GNU 13.3.0
+[0.190s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.339s] -- Detecting CXX compiler ABI info
+[0.477s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.503s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.728s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.811s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.906s] -- Found hardware_interface: 4.29.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.978s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.000s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.377s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.383s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.417s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.504s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.523s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.526s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.537s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.897s] -- Looking for gz-sim8 -- found version 8.9.0
+[1.910s] -- Searching for dependencies of gz-sim8
+[1.912s] -- Looking for sdformat14 -- found version 14.7.0
+[1.912s] -- Searching for dependencies of sdformat14
+[1.919s] -- Checking for module 'tinyxml2'
+[1.940s] --   Found tinyxml2, version 10.0.0
+[1.998s] -- Looking for gz-math7 -- found version 7.5.2
+[1.998s] -- Searching for dependencies of gz-math7
+[2.002s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.002s] -- Searching for dependencies of gz-utils2
+[2.003s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.004s] -- Searching for dependencies of gz-utils2
+[2.004s] -- Searching for <gz-utils2> component [cli]
+[2.007s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[2.007s] -- Searching for dependencies of gz-utils2-cli
+[2.012s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.012s] -- Searching for dependencies of gz-plugin2
+[2.012s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.013s] -- Searching for <gz-plugin2> component [loader]
+[2.015s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[2.016s] -- Searching for dependencies of gz-plugin2-loader
+[2.016s] -- Searching for <gz-plugin2> component [register]
+[2.019s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[2.019s] -- Searching for dependencies of gz-plugin2-register
+[2.023s] -- Looking for gz-transport13 -- found version 13.4.1
+[2.023s] -- Searching for dependencies of gz-transport13
+[2.066s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[2.081s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.089s] -- Checking for module 'libzmq >= 4'
+[2.118s] --   Found libzmq, version 4.3.5
+[2.213s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.229s] -- Checking for module 'uuid'
+[2.266s] --   Found uuid, version 2.39.3
+[2.336s] -- Found UUID: TRUE  
+[2.337s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.346s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.347s] -- Searching for dependencies of gz-msgs10
+[2.383s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.383s] -- Looking for gz-math7 -- found version 7.5.2
+[2.392s] -- Searching for <gz-transport13> component [log]
+[2.395s] -- Looking for gz-transport13-log -- found version 13.4.1
+[2.395s] -- Searching for dependencies of gz-transport13-log
+[2.396s] -- Searching for <gz-transport13> component [parameters]
+[2.398s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[2.399s] -- Searching for dependencies of gz-transport13-parameters
+[2.400s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.403s] -- Looking for gz-common5 -- found version 5.7.1
+[2.404s] -- Searching for dependencies of gz-common5
+[2.404s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.405s] -- Looking for dlfcn.h - found
+[2.406s] -- Looking for libdl - found
+[2.408s] -- Found DL: TRUE  
+[2.418s] -- Searching for <gz-common5> component [av]
+[2.421s] -- Looking for gz-common5-av -- found version 5.7.1
+[2.421s] -- Searching for dependencies of gz-common5-av
+[2.427s] -- Checking for module 'libswscale'
+[2.459s] --   Found libswscale, version 7.5.100
+[2.532s] -- Found SWSCALE: TRUE  
+[2.544s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.581s] --   Found libavdevice, version 60.3.100
+[2.696s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.709s] -- Checking for module 'libavformat'
+[2.746s] --   Found libavformat, version 60.16.100
+[2.837s] -- Found AVFORMAT: TRUE  
+[2.850s] -- Checking for module 'libavcodec'
+[2.888s] --   Found libavcodec, version 60.31.102
+[2.975s] -- Found AVCODEC: TRUE  
+[2.989s] -- Checking for module 'libavutil'
+[3.025s] --   Found libavutil, version 58.29.100
+[3.106s] -- Found AVUTIL: TRUE  
+[3.109s] -- Searching for <gz-common5> component [events]
+[3.117s] -- Looking for gz-common5-events -- found version 5.7.1
+[3.118s] -- Searching for dependencies of gz-common5-events
+[3.118s] -- Looking for gz-math7 -- found version 7.5.2
+[3.120s] -- Searching for <gz-common5> component [graphics]
+[3.129s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[3.129s] -- Searching for dependencies of gz-common5-graphics
+[3.130s] -- Looking for gz-math7 -- found version 7.5.2
+[3.141s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[3.142s] -- Searching for <gz-common5> component [io]
+[3.145s] -- Looking for gz-common5-io -- found version 5.7.1
+[3.145s] -- Searching for dependencies of gz-common5-io
+[3.146s] -- Searching for <gz-common5> component [profiler]
+[3.149s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[3.149s] -- Searching for dependencies of gz-common5-profiler
+[3.154s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[3.154s] -- Searching for dependencies of gz-fuel_tools9
+[3.280s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[3.300s] -- Checking for module 'jsoncpp'
+[3.328s] --   Found jsoncpp, version 1.9.5
+[3.394s] -- Found JSONCPP: TRUE  
+[3.432s] -- Checking for module 'yaml-0.1'
+[3.454s] --   Found yaml-0.1, version 0.2.5
+[3.517s] -- Found YAML: TRUE  
+[3.528s] -- Checking for module 'libzip'
+[3.561s] --   Found libzip, version 1.7.3
+[3.635s] -- Found ZIP: TRUE  
+[3.636s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.637s] -- Looking for gz-common5 -- found version 5.7.1
+[3.638s] -- Searching for dependencies of gz-common5
+[3.639s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.639s] -- Looking for dlfcn.h - found
+[3.639s] -- Looking for libdl - found
+[3.656s] -- Searching for <gz-common5> component [testing]
+[3.663s] -- Looking for gz-common5-testing -- found version 5.7.1
+[3.664s] -- Searching for dependencies of gz-common5-testing
+[3.665s] -- Looking for gz-math7 -- found version 7.5.2
+[3.665s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.670s] -- Looking for gz-gui8 -- found version 8.4.0
+[3.670s] -- Searching for dependencies of gz-gui8
+[3.705s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.705s] -- Looking for gz-math7 -- found version 7.5.2
+[3.706s] -- Looking for gz-common5 -- found version 5.7.1
+[3.706s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.706s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.709s] -- Looking for gz-rendering8 -- found version 8.2.2
+[3.710s] -- Searching for dependencies of gz-rendering8
+[3.710s] -- Looking for gz-math7 -- found version 7.5.2
+[3.710s] -- Searching for dependencies of gz-math7
+[3.711s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.711s] -- Searching for <gz-math7> component [eigen3]
+[3.714s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[3.714s] -- Searching for dependencies of gz-math7-eigen3
+[3.725s] -- Looking for gz-common5 -- found version 5.7.1
+[3.725s] -- Searching for dependencies of gz-common5
+[3.726s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.726s] -- Looking for dlfcn.h - found
+[3.726s] -- Looking for libdl - found
+[3.736s] -- Searching for <gz-common5> component [graphics]
+[3.736s] -- Searching for <gz-common5> component [events]
+[3.736s] -- Searching for <gz-common5> component [geospatial]
+[3.739s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[3.739s] -- Searching for dependencies of gz-common5-geospatial
+[3.740s] -- Looking for gz-math7 -- found version 7.5.2
+[3.740s] -- Looking for gz-common5 -- found version 5.7.1
+[3.741s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.742s] -- Searching for dependencies of gz-plugin2
+[3.742s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.742s] -- Searching for <gz-plugin2> component [all]
+[3.745s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[3.746s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.747s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.760s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.762s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.801s] -- Looking for gz-physics7 -- found version 7.5.0
+[3.802s] -- Searching for dependencies of gz-physics7
+[3.802s] -- Looking for gz-common5 -- found version 5.7.1
+[3.802s] -- Looking for gz-math7 -- found version 7.5.2
+[3.802s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.803s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.805s] -- Searching for <gz-physics7> component [heightmap]
+[3.807s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[3.808s] -- Searching for dependencies of gz-physics7-heightmap
+[3.808s] -- Looking for gz-common5 -- found version 5.7.1
+[3.808s] -- Searching for <gz-physics7> component [mesh]
+[3.811s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[3.811s] -- Searching for dependencies of gz-physics7-mesh
+[3.811s] -- Looking for gz-common5 -- found version 5.7.1
+[3.812s] -- Searching for <gz-physics7> component [sdf]
+[3.814s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[3.814s] -- Searching for dependencies of gz-physics7-sdf
+[3.815s] -- Looking for sdformat14 -- found version 14.7.0
+[3.818s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.818s] -- Searching for dependencies of gz-sensors8
+[3.841s] -- Looking for gz-math7 -- found version 7.5.2
+[3.841s] -- Looking for gz-common5 -- found version 5.7.1
+[3.841s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.842s] -- Looking for gz-rendering8 -- found version 8.2.2
+[3.842s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.842s] -- Looking for sdformat14 -- found version 14.7.0
+[3.844s] -- Searching for <gz-sensors8> component [air_pressure]
+[3.846s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[3.846s] -- Searching for dependencies of gz-sensors8-air_pressure
+[3.847s] -- Searching for <gz-sensors8> component [air_speed]
+[3.849s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[3.850s] -- Searching for dependencies of gz-sensors8-air_speed
+[3.850s] -- Searching for <gz-sensors8> component [altimeter]
+[3.854s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[3.854s] -- Searching for dependencies of gz-sensors8-altimeter
+[3.855s] -- Searching for <gz-sensors8> component [imu]
+[3.857s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[3.857s] -- Searching for dependencies of gz-sensors8-imu
+[3.858s] -- Searching for <gz-sensors8> component [force_torque]
+[3.860s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[3.860s] -- Searching for dependencies of gz-sensors8-force_torque
+[3.861s] -- Searching for <gz-sensors8> component [logical_camera]
+[3.863s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[3.863s] -- Searching for dependencies of gz-sensors8-logical_camera
+[3.864s] -- Searching for <gz-sensors8> component [magnetometer]
+[3.866s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[3.866s] -- Searching for dependencies of gz-sensors8-magnetometer
+[3.867s] -- Searching for <gz-sensors8> component [navsat]
+[3.869s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[3.870s] -- Searching for dependencies of gz-sensors8-navsat
+[3.870s] -- Searching for <gz-sensors8> component [dvl]
+[3.872s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[3.873s] -- Searching for dependencies of gz-sensors8-dvl
+[3.873s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.873s] -- Searching for dependencies of gz-sensors8
+[3.899s] -- Looking for gz-math7 -- found version 7.5.2
+[3.900s] -- Looking for gz-common5 -- found version 5.7.1
+[3.900s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.901s] -- Looking for gz-rendering8 -- found version 8.2.2
+[3.901s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.901s] -- Looking for sdformat14 -- found version 14.7.0
+[3.901s] -- Searching for <gz-sensors8> component [rendering]
+[3.904s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[3.904s] -- Searching for dependencies of gz-sensors8-rendering
+[3.906s] -- Searching for <gz-sensors8> component [rendering]
+[3.906s] -- Searching for <gz-sensors8> component [lidar]
+[3.908s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[3.909s] -- Searching for dependencies of gz-sensors8-lidar
+[3.909s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.909s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[3.912s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[3.912s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[3.912s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.913s] -- Searching for <gz-sensors8> component [camera]
+[3.915s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[3.915s] -- Searching for dependencies of gz-sensors8-camera
+[3.916s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.917s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[3.919s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[3.919s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[3.920s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[3.922s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[3.922s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[3.923s] -- Searching for <gz-sensors8> component [depth_camera]
+[3.925s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[3.925s] -- Searching for dependencies of gz-sensors8-depth_camera
+[3.925s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.926s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[3.928s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[3.929s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[3.929s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.930s] -- Searching for <gz-sensors8> component [thermal_camera]
+[3.932s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[3.932s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[3.932s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.933s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[3.936s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[3.936s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[3.937s] -- Looking for gz-rendering8 -- found version 8.2.2
+[3.937s] -- Looking for gz-math7 -- found version 7.5.2
+[3.938s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.963s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.964s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.964s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.968s] -- Found gz_ros2_control: 1.2.12 (/opt/ros/jazzy/share/gz_ros2_control/cmake)
+[3.975s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.109s] -- Configuring done (4.1s)
+[4.194s] -- Generating done (0.1s)
+[4.205s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_gazebo
+[4.222s] Invoked command in '/husarion_ws/build/husarion_ugv_gazebo' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_gazebo -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_gazebo
+[4.223s] Invoking command in '/husarion_ws/build/husarion_ugv_gazebo': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_gazebo -- -j6 -l6
+[4.297s] [  0%] Built target EStop_autogen_timestamp_deps
+[4.298s] [  7%] Building CXX object CMakeFiles/estop_system.dir/src/estop_system.cpp.o
+[4.305s] [  7%] Built target LEDStrip_autogen_timestamp_deps
+[4.320s] [ 14%] Automatic MOC for target EStop
+[4.335s] [ 21%] Automatic MOC for target LEDStrip
+[4.378s] [ 21%] Built target LEDStrip_autogen
+[4.414s] [ 28%] Building CXX object CMakeFiles/LEDStrip.dir/src/led_strip.cpp.o
+[4.417s] [ 35%] Building CXX object CMakeFiles/LEDStrip.dir/LEDStrip_autogen/mocs_compilation.cpp.o
+[4.908s] [ 35%] Built target EStop_autogen
+[4.921s] [ 42%] Generating qrc_EStop.cpp
+[4.967s] [ 57%] Building CXX object CMakeFiles/EStop.dir/src/gui/e_stop.cpp.o
+[4.967s] [ 57%] Building CXX object CMakeFiles/EStop.dir/EStop_autogen/mocs_compilation.cpp.o
+[4.967s] [ 64%] Building CXX object CMakeFiles/EStop.dir/qrc_EStop.cpp.o
+[11.524s] [ 71%] Linking CXX shared library libLEDStrip.so
+[11.837s] [ 78%] Built target LEDStrip
+[15.311s] [ 85%] Linking CXX shared library libestop_system.so
+[15.657s] [ 85%] Built target estop_system
+[16.629s] [ 92%] Linking CXX shared library libEStop.so
+[16.999s] [100%] Built target EStop
+[17.022s] Invoked command in '/husarion_ws/build/husarion_ugv_gazebo' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_gazebo -- -j6 -l6
+[17.024s] Invoking command in '/husarion_ws/build/husarion_ugv_gazebo': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_gazebo
+[17.042s] -- Install configuration: "Release"
+[17.042s] -- Execute custom install script
+[17.043s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/include/husarion_ugv_gazebo/husarion_ugv_gazebo/estop_system.hpp
+[17.052s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/include/husarion_ugv_gazebo/husarion_ugv_gazebo/gui/e_stop.hpp
+[17.069s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/include/husarion_ugv_gazebo/husarion_ugv_gazebo/led_strip.hpp
+[17.088s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/config/battery_plugin.yaml
+[17.098s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/config/gz_bridge.yaml
+[17.107s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/config/robot_bridge.yaml
+[17.116s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/config/teleop_with_estop.config
+[17.126s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/launch/simulate_robot.launch.py
+[17.135s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/launch/simulation.launch.py
+[17.144s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/launch/spawn_robot.launch.py
+[17.163s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/setup_envs.sh
+[17.172s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/library_path.sh
+[17.183s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/library_path.dsv
+[17.192s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo//plugins.xml
+[17.201s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_gazebo
+[17.210s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_gazebo
+[17.220s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/ament_prefix_path.sh
+[17.230s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/ament_prefix_path.dsv
+[17.239s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/path.sh
+[17.248s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/environment/path.dsv
+[17.258s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/local_setup.bash
+[17.275s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/local_setup.sh
+[17.294s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/local_setup.zsh
+[17.303s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/local_setup.dsv
+[17.317s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/package.dsv
+[17.327s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/ament_index/resource_index/packages/husarion_ugv_gazebo
+[17.336s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/husarion_ugv_gazebo
+[17.344s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.354s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.363s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/ament_cmake_export_targets-extras.cmake
+[17.381s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/husarion_ugv_gazeboConfig.cmake
+[17.390s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/husarion_ugv_gazeboConfig-version.cmake
+[17.399s] -- Symlinking: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/package.xml
+[17.409s] -- Installing: /husarion_ws/install/husarion_ugv_gazebo/lib/libestop_system.so
+[17.410s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_gazebo/lib/libestop_system.so" to ""
+[17.410s] -- Installing: /husarion_ws/install/husarion_ugv_gazebo/lib/libEStop.so
+[17.411s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_gazebo/lib/libEStop.so" to ""
+[17.411s] -- Installing: /husarion_ws/install/husarion_ugv_gazebo/lib/libLEDStrip.so
+[17.411s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_gazebo/lib/libLEDStrip.so" to ""
+[17.411s] -- Installing: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/export_husarion_ugv_gazeboExport.cmake
+[17.412s] -- Installing: /husarion_ws/install/husarion_ugv_gazebo/share/husarion_ugv_gazebo/cmake/export_husarion_ugv_gazeboExport-release.cmake
+[17.414s] Invoked command in '/husarion_ws/build/husarion_ugv_gazebo' returned '0': AMENT_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy GAZEBO_MODEL_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${GAZEBO_MODEL_PATH} GZ_SIM_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/opt/ros/jazzy/share:/husarion_ws/install/ros_components_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models IGN_GAZEBO_RESOURCE_PATH=/husarion_ws/install/husarion_ugv_description/share:/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_gazebo

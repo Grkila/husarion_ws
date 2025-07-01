@@ -204,7 +204,7 @@
 
     <gazebo reference="${device_namespace}_center">
       <sensor type="depth_camera" name="${ns}${device_namespace}_stereolabs_zed_depth">
-        <always_on>true</always_on>
+        <always_on>false</always_on>
         <update_rate>30.0</update_rate>
 
         <topic>${ns}${device_namespace}/zed_node/depth</topic>

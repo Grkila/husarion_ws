@@ -26,7 +26,8 @@
     <xacro:include filename="$(find husarion_ugv_description)/urdf/panther/base.urdf.xacro" ns="body" />
     <xacro:include filename="$(find husarion_ugv_description)/urdf/common/gazebo.urdf.xacro" ns="gazebo" />
     <xacro:include filename="$(find husarion_ugv_description)/urdf/common/wheel.urdf.xacro" ns="wheel" />
-    <xacro:include filename="$(find ros_components_description)/urdf/stereolabs_zed.urdf.xacro" ns="cam" />
+    <xacro:include filename="$(find ros_components_description)/urdf/stereolabs_zed.urdf.xacro" ns="cam" /> 
+    <xacro:include filename="$(find ros_components_description)/urdf/velodyne_puck.urdf.xacro" ns="lidar" /> 
     <!-- BODY DECLARATION -->
     <xacro:body.body
       wheel_radius="${wheel_config['wheel_radius']}"
@@ -81,6 +82,12 @@
       rpy="0.0 0.0 -1.5708"
       device_namespace="right_cam"
       model="zedx"/>
+      <xacro:lidar.velodyne_puck
+        parent_link="cover_link"
+        xyz="0.0 0.0 0.0"
+        rpy="0.0 0.0 0.0" 
+        device_namespace="lidar"/>
+
       
     <ros2_control name="${ns}panther_system" type="system">
       <hardware>

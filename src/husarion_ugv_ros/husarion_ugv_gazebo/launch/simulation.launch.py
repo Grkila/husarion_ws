@@ -201,6 +201,24 @@ def generate_launch_description():
             # "gz_bridge_name": "lidar_bridge" # Optional: to give it a unique name if you have other bridges
         }.items(),
     )
+    lidar_bridge_launch= IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution(
+                [
+                    FindPackageShare("ros_components_description"), # Assuming this is the package where gz_lidar_slamtec_launch.py is
+                    "launch", # Or whatever subdirectory it's in
+                    "gz_velodyne.launch.py", # The name of THIS file
+                ]
+            )
+        ),
+        launch_arguments={
+            "robot_namespace": namespace, 
+            "device_namespace": "lidar", # Pass the main namespace
+            # "device_namespace": "lidar", # Optional: if you want to further namespace this specific lidar
+                                          # If not passed, it will use the default "" from its own declaration
+            # "gz_bridge_name": "lidar_bridge" # Optional: to give it a unique name if you have other bridges
+        }.items(),
+    )
     actions = [
         declare_gz_gui,
         declare_log_level_arg,
@@ -215,6 +233,7 @@ def generate_launch_description():
         zed_cam_bridge_launch_back,
         zed_cam_bridge_launch_left,
         zed_cam_bridge_launch_right,
+        lidar_bridge_launch,
     ]
 
     return LaunchDescription(actions)

@@ -1,0 +1,1237 @@
+[0.064s] Invoking command in '/husarion_ws/build/husarion_ugv_hardware_interfaces': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_hardware_interfaces
+[0.118s] -- Configuring done (0.0s)
+[0.121s] -- Generating done (0.0s)
+[0.122s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_hardware_interfaces
+[0.124s] Invoked command in '/husarion_ws/build/husarion_ugv_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_hardware_interfaces
+[0.125s] Invoking command in '/husarion_ws/build/husarion_ugv_hardware_interfaces': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_hardware_interfaces -- -j12 -l12
+[0.164s] [  4%] [34m[1mCreating directories for 'ep_liblely'[0m
+[0.164s] [  8%] [34m[1mCreating directories for 'ep_libgpiod'[0m
+[0.185s] [ 12%] [34m[1mPerforming download step (git clone) for 'ep_libgpiod'[0m
+[0.185s] [ 16%] [34m[1mPerforming download step (git clone) for 'ep_liblely'[0m
+[0.203s] Cloning into 'ep_libgpiod'...
+[0.203s] Cloning into 'upstream'...
+[0.931s] HEAD is now at 9068bb0 libgpiod v2.0.2
+[0.978s] [ 20%] [34m[1mPerforming update step for 'ep_libgpiod'[0m
+[0.999s] [ 25%] [34m[1mNo patch step for 'ep_libgpiod'[0m
+[1.019s] [ 29%] [34m[1mPerforming configure step for 'ep_libgpiod'[0m
+[1.090s] autoreconf: export WARNINGS=
+[1.093s] autoreconf: Entering directory '.'
+[1.093s] autoreconf: configure.ac: not using Gettext
+[2.099s] autoreconf: running: aclocal --force -I m4
+[2.371s] aclocal: warning: couldn't open directory 'm4': No such file or directory
+[3.425s] HEAD is now at c154acfa release v2.3.3
+[3.522s] [ 33%] [34m[1mPerforming update step for 'ep_liblely'[0m
+[3.589s] [ 37%] [34m[1mNo patch step for 'ep_liblely'[0m
+[3.616s] [ 41%] [34m[1mPerforming configure step for 'ep_liblely'[0m
+[32.216s] autoreconf: configure.ac: tracing
+[38.490s] autoreconf: configure.ac: creating directory autostuff
+[38.490s] autoreconf: running: libtoolize --copy --force
+[39.686s] libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'autostuff'.
+[39.686s] libtoolize: copying file 'autostuff/ltmain.sh'
+[40.071s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[40.071s] libtoolize: copying file 'm4/libtool.m4'
+[40.408s] libtoolize: copying file 'm4/ltoptions.m4'
+[40.806s] libtoolize: copying file 'm4/ltsugar.m4'
+[41.274s] libtoolize: copying file 'm4/ltversion.m4'
+[41.568s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[42.014s] autoreconf: configure.ac: not using Intltool
+[42.014s] autoreconf: configure.ac: not using Gtkdoc
+[42.014s] autoreconf: running: aclocal --force -I m4
+[71.385s] autoreconf: running: /usr/bin/autoconf --force
+[76.995s] configure.ac:75: warning: The macro `AC_HEADER_STDC' is obsolete.
+[76.995s] configure.ac:75: You should run autoupdate.
+[76.995s] ./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+[76.996s] configure.ac:75: the top level
+[80.415s] autoreconf: running: /usr/bin/autoheader --force
+[85.388s] autoreconf: running: automake --add-missing --copy --force-missing
+[89.393s] libtoolize: putting auxiliary files in '.'.
+[89.394s] libtoolize: copying file './ltmain.sh'
+[89.785s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[89.785s] libtoolize: copying file 'm4/libtool.m4'
+[89.893s] configure.ac:51: installing 'autostuff/ar-lib'
+[89.907s] configure.ac:51: installing 'autostuff/compile'
+[89.972s] configure.ac:57: installing 'autostuff/config.guess'
+[89.995s] configure.ac:57: installing 'autostuff/config.sub'
+[90.008s] configure.ac:37: installing 'autostuff/install-sh'
+[90.085s] configure.ac:37: installing 'autostuff/missing'
+[90.382s] libtoolize: copying file 'm4/ltoptions.m4'
+[90.889s] bindings/cxx/Makefile.am: installing 'autostuff/depcomp'
+[90.890s] libtoolize: copying file 'm4/ltsugar.m4'
+[91.503s] libtoolize: copying file 'm4/ltversion.m4'
+[91.912s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[98.468s] autoreconf: Leaving directory '.'
+[99.207s] checking for a BSD-compatible install... /usr/bin/install -c
+[99.213s] checking whether build environment is sane... yes
+[99.294s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[99.295s] checking for gawk... no
+[99.295s] checking for mawk... mawk
+[99.374s] checking whether make sets $(MAKE)... yes
+[99.401s] checking whether make supports nested variables... yes
+[99.470s] checking whether make supports nested variables... (cached) yes
+[99.505s] checking whether make supports the include directive... yes (GNU style)
+[99.505s] checking for gcc... gcc
+[99.979s] checking whether the C compiler works... yes
+[99.980s] checking for C compiler default output file name... a.out
+[100.196s] checking for suffix of executables... 
+[100.497s] checking whether we are cross compiling... no
+[100.674s] checking for suffix of object files... o
+[100.777s] checking whether the compiler supports GNU C... yes
+[100.814s] checking whether gcc accepts -g... yes
+[101.184s] checking for gcc option to enable C11 features... none needed
+[101.392s] checking whether gcc understands -c and -o together... yes
+[101.613s] checking dependency style of gcc... gcc3
+[101.614s] checking for ar... ar
+[101.785s] checking the archiver (ar) interface... ar
+[101.786s] checking for gcc... (cached) gcc
+[101.986s] checking whether the compiler supports GNU C... (cached) yes
+[101.986s] checking whether gcc accepts -g... (cached) yes
+[101.986s] checking for gcc option to enable C11 features... (cached) none needed
+[101.987s] checking whether gcc understands -c and -o together... (cached) yes
+[101.990s] checking dependency style of gcc... (cached) gcc3
+[101.994s] checking for g++... g++
+[102.305s] checking whether the compiler supports GNU C++... yes
+[102.880s] checking whether g++ accepts -g... yes
+[103.294s] checking for g++ option to enable C++11 features... none needed
+[103.576s] checking dependency style of g++... gcc3
+[103.583s] checking for grep that handles long lines and -e... /usr/bin/grep
+[103.592s] checking for egrep... /usr/bin/grep -E
+[104.008s] checking build system type... x86_64-pc-linux-gnu
+[104.008s] checking host system type... x86_64-pc-linux-gnu
+[104.014s] checking how to print strings... printf
+[104.076s] checking for a sed that does not truncate output... /usr/bin/sed
+[104.088s] checking for fgrep... /usr/bin/grep -F
+[104.105s] checking for ld used by gcc... /usr/bin/ld
+[104.114s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[104.169s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[104.215s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[104.215s] checking whether ln -s works... yes
+[104.222s] checking the maximum length of command line arguments... 1572864
+[104.272s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[104.273s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[104.274s] checking for /usr/bin/ld option to reload object files... -r
+[104.274s] checking for file... file
+[104.278s] checking for objdump... objdump
+[104.280s] checking how to recognize dependent libraries... pass_all
+[104.282s] checking for dlltool... no
+[104.283s] checking how to associate runtime and link libraries... printf %s\n
+[104.406s] checking for archiver @FILE support... @
+[104.407s] checking for strip... strip
+[104.409s] checking for ranlib... ranlib
+[104.789s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[104.797s] checking for sysroot... no
+[104.822s] checking for a working dd... /usr/bin/dd
+[104.883s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[104.916s] checking for mt... no
+[104.923s] checking if : is a manifest tool... no
+[105.068s] checking for stdio.h... yes
+[105.189s] checking for stdlib.h... yes
+[105.317s] checking for string.h... yes
+[105.498s] checking for inttypes.h... yes
+[105.625s] checking for stdint.h... yes
+[105.778s] checking for strings.h... yes
+[105.910s] checking for sys/stat.h... yes
+[106.080s] checking for sys/types.h... yes
+[106.221s] checking for unistd.h... yes
+[106.423s] checking for dlfcn.h... yes
+[106.479s] checking for objdir... .libs
+[106.897s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[106.897s] checking for gcc option to produce PIC... -fPIC -DPIC
+[106.999s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[107.285s] checking if gcc static flag -static works... yes
+[107.414s] checking if gcc supports -c -o file.o... yes
+[107.415s] checking if gcc supports -c -o file.o... (cached) yes
+[107.494s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[107.614s] checking whether -lc should be explicitly linked in... no
+[107.983s] checking dynamic linker characteristics... GNU/Linux ld.so
+[107.983s] checking how to hardcode library paths into programs... immediate
+[107.995s] checking whether stripping libraries is possible... yes
+[107.995s] checking if libtool supports shared libraries... yes
+[107.995s] checking whether to build shared libraries... yes
+[107.996s] checking whether to build static libraries... yes
+[108.207s] checking how to run the C++ preprocessor... g++ -E
+[108.722s] checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+[108.727s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[108.782s] checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[109.030s] checking for g++ option to produce PIC... -fPIC -DPIC
+[109.123s] checking if g++ PIC flag -fPIC -DPIC works... yes
+[109.279s] checking if g++ static flag -static works... yes
+[109.386s] checking if g++ supports -c -o file.o... yes
+[109.386s] checking if g++ supports -c -o file.o... (cached) yes
+[109.386s] checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[109.400s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[109.403s] checking how to hardcode library paths into programs... immediate
+[109.403s] checking for egrep... (cached) /usr/bin/grep -E
+[109.604s] checking for GNU libc compatible malloc... yes
+[109.786s] checking for _Bool... yes
+[109.823s] checking for stdbool.h that conforms to C99... yes
+[109.903s] checking for ioctl... yes
+[109.914s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[109.914s] configure.ac:17: You should run autoupdate.
+[109.914s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[109.914s] configure.ac:17: the top level
+[109.914s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[109.914s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[109.915s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[109.915s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[109.915s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[109.915s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[109.915s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[109.915s] configure.ac:81: the top level
+[109.915s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[109.915s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[109.915s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[109.915s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[109.916s] configure.ac:434: the top level
+[109.940s] checking for open... yes
+[110.018s] checking for close... yes
+[110.085s] checking for read... yes
+[110.128s] checking for ppoll... yes
+[110.201s] checking for realpath... yes
+[110.235s] checking for readlink... yes
+[110.306s] checking for fcntl.h... yes
+[110.335s] checking for getopt.h... yes
+[110.404s] checking for dirent.h... yes
+[110.435s] checking for poll.h... yes
+[110.511s] checking for sys/sysmacros.h... yes
+[110.574s] checking for sys/ioctl.h... yes
+[110.617s] checking for sys/param.h... yes
+[110.617s] checking for sys/stat.h... (cached) yes
+[110.617s] checking for sys/types.h... (cached) yes
+[110.644s] checking for linux/const.h... yes
+[110.712s] checking for linux/ioctl.h... yes
+[110.740s] checking for linux/types.h... yes
+[110.741s] checking for pkg-config... /usr/bin/pkg-config
+[110.768s] checking pkg-config is at least version 0.9.0... yes
+[110.888s] checking whether g++ supports C++17 features with -std=gnu++17... yes
+[110.891s] checking for doxygen... false
+[110.891s] configure: doxygen not found - documentation cannot be generated
+[110.891s] checking for help2man... false
+[110.891s] configure: help2man not found - man pages cannot be generated automatically
+[110.919s] checking that generated files are newer than configure... done
+[110.919s] configure: creating ./config.status
+[111.137s] configure.ac:17: installing './compile'
+[111.168s] configure.ac:6: installing './config.guess'
+[111.170s] configure.ac:6: installing './config.sub'
+[111.172s] configure.ac:7: installing './install-sh'
+[111.174s] configure.ac:7: installing './missing'
+[111.177s] configure.ac:606: installing './tap-driver.sh'
+[111.524s] src/can/Makefile.am: installing './depcomp'
+[111.906s] config.status: creating Makefile
+[111.919s] config.status: creating include/Makefile
+[111.935s] config.status: creating lib/Makefile
+[111.999s] config.status: creating lib/libgpiod.pc
+[112.020s] config.status: creating tools/Makefile
+[112.036s] config.status: creating tests/Makefile
+[112.097s] config.status: creating tests/gpiosim/Makefile
+[112.119s] config.status: creating bindings/cxx/libgpiodcxx.pc
+[112.135s] config.status: creating bindings/Makefile
+[112.193s] config.status: creating bindings/cxx/Makefile
+[112.215s] config.status: creating bindings/cxx/gpiodcxx/Makefile
+[112.234s] config.status: creating bindings/cxx/examples/Makefile
+[112.283s] config.status: creating bindings/cxx/tests/Makefile
+[112.308s] config.status: creating bindings/python/Makefile
+[112.325s] config.status: creating bindings/python/gpiod/Makefile
+[112.371s] config.status: creating bindings/python/gpiod/ext/Makefile
+[112.399s] config.status: creating bindings/python/examples/Makefile
+[112.417s] config.status: creating bindings/python/tests/Makefile
+[112.435s] parallel-tests: installing './test-driver'
+[112.435s] config.status: creating bindings/python/tests/gpiosim/Makefile
+[112.487s] config.status: creating bindings/python/tests/procname/Makefile
+[112.510s] config.status: creating bindings/rust/libgpiod-sys/src/Makefile
+[112.532s] config.status: creating bindings/rust/libgpiod-sys/Makefile
+[112.581s] config.status: creating bindings/rust/libgpiod/src/Makefile
+[112.612s] config.status: creating bindings/rust/libgpiod/tests/common/Makefile
+[112.635s] config.status: creating bindings/rust/libgpiod/tests/Makefile
+[112.701s] config.status: creating bindings/rust/libgpiod/Makefile
+[112.725s] checking build system type... config.status: creating bindings/rust/libgpiod/examples/Makefile
+[112.782s] config.status: creating bindings/rust/Makefile
+[112.815s] config.status: creating bindings/rust/gpiosim-sys/src/Makefile
+[112.821s] x86_64-pc-linux-gnu
+[112.821s] checking host system type... x86_64-pc-linux-gnu
+[112.821s] checking target system type... x86_64-pc-linux-gnu
+[112.833s] checking for a BSD-compatible install... /usr/bin/install -c
+[112.868s] checking whether build environment is sane... yes
+[112.869s] config.status: creating bindings/rust/gpiosim-sys/Makefile
+[112.889s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[112.889s] checking for gawk... no
+[112.890s] checking for mawk... mawk
+[112.904s] checking whether make sets $(MAKE)... yes
+[112.910s] config.status: creating man/Makefile
+[112.917s] checking whether make supports nested variables... yes
+[112.924s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[112.924s] checking whether make supports nested variables... (cached) yes
+[112.930s] checking for a sed that does not truncate output... /usr/bin/sed
+[112.931s] checking whether to build with code coverage support... no
+[112.933s] checking for valgrind... no
+[112.933s] checking whether make supports the include directive... config.status: creating config.h
+[112.971s] yes (GNU style)
+[112.973s] checking for gcc... gcc
+[112.989s] config.status: executing depfiles commands
+[113.091s] checking whether the C compiler works... yes
+[113.092s] checking for C compiler default output file name... a.out
+[113.130s] checking for suffix of executables... 
+[113.211s] checking whether we are cross compiling... no
+[113.230s] checking for suffix of object files... o
+[113.273s] checking whether the compiler supports GNU C... yes
+[113.299s] checking whether gcc accepts -g... yes
+[113.326s] checking for gcc option to enable C11 features... none needed
+[113.371s] checking whether gcc understands -c and -o together... yes
+[113.398s] checking dependency style of gcc... gcc3
+[113.412s] checking for stdio.h... yes
+[113.430s] checking for stdlib.h... yes
+[113.447s] checking for string.h... yes
+[113.483s] checking for inttypes.h... yes
+[113.500s] checking for stdint.h... yes
+[113.518s] checking for strings.h... yes
+[113.536s] checking for sys/stat.h... yes
+[113.572s] checking for sys/types.h... yes
+[113.599s] checking for unistd.h... yes
+[113.621s] checking for wchar.h... yes
+[113.623s] checking for minix/config.h... config.status: executing libtool commands
+[113.668s] no
+[113.692s] checking whether it is safe to define __EXTENSIONS__... yes
+[113.706s] checking whether _XOPEN_SOURCE should be defined... [ 45%] [34m[1mPerforming build step for 'ep_libgpiod'[0m
+[113.709s] make[3]: warning: -j0 forced in submake: resetting jobserver mode.
+[113.710s] no
+[113.710s] checking for g++... g++
+[113.719s] Making all in include
+[113.721s] Making all in lib
+[113.724s]   CC       libgpiod_la-chip.lo
+[113.744s] checking whether the compiler supports GNU C++... yes
+[113.783s] checking whether g++ accepts -g... yes
+[113.832s] checking for g++ option to enable C++11 features... none needed
+[113.875s] checking dependency style of g++... gcc3
+[113.904s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[113.907s] checking how to print strings... printf
+[113.907s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[113.910s] checking for grep that handles long lines and -e... /usr/bin/grep
+[113.911s] checking for egrep... /usr/bin/grep -E
+[113.913s] checking for fgrep... /usr/bin/grep -F
+[113.917s] checking for ld used by gcc... /usr/bin/ld
+[113.920s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[113.922s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[113.934s] checking the name lister (/usr/bin/nm -B) interface...   CC       libgpiod_la-request-config.lo
+[113.939s] BSD nm
+[113.939s] checking whether ln -s works... yes
+[113.943s] checking the maximum length of command line arguments... 1572864
+[113.945s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[113.945s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[113.946s] checking for /usr/bin/ld option to reload object files... -r
+[113.946s] checking for file... file
+[113.946s] checking for objdump... objdump
+[113.946s] checking how to recognize dependent libraries... pass_all
+[113.947s] checking for dlltool... no
+[113.947s] checking how to associate runtime and link libraries... printf %s\n
+[113.947s] checking for ar... ar
+[113.983s] checking for archiver @FILE support... @
+[113.983s] checking for strip... strip
+[113.983s] checking for ranlib... ranlib
+[114.048s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[114.069s] checking for sysroot... no
+[114.074s] checking for a working dd... /usr/bin/dd
+[114.078s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[114.078s]   CC       libgpiod_la-misc.lo
+[114.092s] checking for mt... no
+[114.095s] checking if : is a manifest tool... no
+[114.123s] checking for dlfcn.h... yes
+[114.127s] checking for objdir... .libs
+[114.149s]   CC       libgpiod_la-line-settings.lo
+[114.208s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[114.208s] checking for gcc option to produce PIC... -fPIC -DPIC
+[114.225s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[114.287s] checking if gcc static flag -static works... yes
+[114.313s] checking if gcc supports -c -o file.o... yes
+[114.313s] checking if gcc supports -c -o file.o... (cached) yes
+[114.323s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[114.331s] checking whether -lc should be explicitly linked in...   CC       libgpiod_la-line-request.lo
+[114.343s] no
+[114.408s] checking dynamic linker characteristics... GNU/Linux ld.so
+[114.408s] checking how to hardcode library paths into programs... immediate
+[114.410s] checking whether stripping libraries is possible... yes
+[114.410s] checking if libtool supports shared libraries... yes
+[114.410s] checking whether to build shared libraries... yes
+[114.410s] checking whether to build static libraries... no
+[114.441s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[114.540s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[114.543s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[114.550s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[114.600s]   CC       libgpiod_la-line-info.lo
+[114.624s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[114.642s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[114.707s] checking if g++ -std=gnu++11 static flag -static works... yes
+[114.733s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[114.733s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[114.733s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[114.736s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[114.736s] checking how to hardcode library paths into programs... immediate
+[114.737s] checking for windres... no
+[114.797s] checking for timer_create in -lrt...   CC       libgpiod_la-line-config.lo
+[114.810s] yes
+[114.832s] checking how to run the C preprocessor... gcc -E
+[114.883s] checking whether gcc is Clang... no
+[114.918s] checking whether pthreads work with -pthread... yes
+[114.949s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[114.949s] checking whether more special flags are required for pthreads... no
+[114.998s] checking for PTHREAD_PRIO_INHERIT... yes
+[114.999s] checking for pkg-config... /usr/bin/pkg-config
+[115.000s] checking pkg-config is at least version 0.9.0... yes
+[115.049s] checking for cpputest >= 4... no
+[115.091s] checking for valgrind/valgrind.h...   CC       libgpiod_la-internal.lo
+[115.109s] no
+[115.169s] checking for linux/can.h... yes
+[115.211s] checking for linux/can/error.h... yes
+[115.228s] checking for bluetooth/bluetooth.h... no
+[115.243s] checking for bluetooth/rfcomm.h... no
+[115.324s] checking for library containing str2ba...   CC       libgpiod_la-info-event.lo
+[115.332s] no
+[115.382s] checking for ifaddrs.h... yes
+[115.423s] checking for linux/can/netlink.h... yes
+[115.482s] checking for linux/can/raw.h... yes
+[115.497s] checking for linux/rtnetlink.h...   CC       libgpiod_la-edge-event.lo
+[115.522s] yes
+[115.568s] checking for sys/epoll.h... yes
+[115.611s] checking for sys/ioctl.h... yes
+[115.612s] checking for doxygen... no
+[115.612s] checking for gawk... (cached) mawk
+[115.636s] checking that generated files are newer than configure... done
+[115.637s] configure: creating ./config.status
+[115.737s]   CC       libgpiod_la-chip-info.lo
+[115.916s]   CCLD     libgpiod.la
+[116.133s] Making all in bindings
+[116.140s] Making all in .
+[116.142s] Making all in cxx
+[116.170s] Making all in gpiodcxx
+[116.172s] Making all in .
+[116.176s]   CXX      libgpiodcxx_la-chip.lo
+[116.630s] config.status: creating doc/Doxyfile
+[116.670s] config.status: creating doc/Makefile
+[116.691s] config.status: creating include/Makefile
+[116.715s] config.status: creating pkgconfig/liblely-can.pc
+[116.739s] config.status: creating pkgconfig/liblely-co.pc
+[116.781s] config.status: creating pkgconfig/liblely-coapp.pc
+[116.804s] config.status: creating pkgconfig/liblely-ev.pc
+[116.825s] config.status: creating pkgconfig/liblely-io.pc
+[116.847s] config.status: creating pkgconfig/liblely-io2.pc
+[116.891s] config.status: creating pkgconfig/liblely-libc.pc
+[116.913s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[116.935s] config.status: creating pkgconfig/liblely-tap.pc
+[116.977s] config.status: creating pkgconfig/liblely-util.pc
+[116.999s] config.status: creating pkgconfig/Makefile
+[117.020s] config.status: creating python/can/Makefile
+[117.043s] config.status: creating python/dcf-tools/Makefile
+[117.083s] config.status: creating python/io/Makefile
+[117.106s] config.status: creating python/Makefile
+[117.128s] config.status: creating src/can/Makefile
+[117.170s] config.status: creating src/co/Makefile
+[117.195s] config.status: creating src/co/version.rc
+[117.216s] config.status: creating src/coapp/Makefile
+[117.244s] config.status: creating src/coapp/version.rc
+[117.279s] config.status: creating src/ev/Makefile
+[117.295s] config.status: creating src/ev/version.rc
+[117.314s] config.status: creating src/io/Makefile
+[117.331s] config.status: creating src/io2/Makefile
+[117.369s] config.status: creating src/io2/version.rc
+[117.394s] config.status: creating src/libc/Makefile
+[117.417s] config.status: creating src/libc/version.rc
+[117.439s] config.status: creating src/tap/Makefile
+[117.481s] config.status: creating src/tap/version.rc
+[117.504s] config.status: creating src/util/Makefile
+[117.528s] config.status: creating src/util/version.rc
+[117.569s] config.status: creating src/Makefile
+[117.592s] config.status: creating tools/Makefile
+[117.615s] config.status: creating tools/version.dcf2c.rc
+[117.638s] config.status: creating test/co-nmt-master.dcf
+[117.681s] config.status: creating test/Makefile
+[117.704s] config.status: creating unit-tests/Makefile
+[117.728s] config.status: creating exec-wrapper.sh
+[117.745s] config.status: creating lcov-wrapper.sh
+[117.783s] config.status: creating Makefile
+[117.800s] config.status: creating config.h
+[117.812s] config.status: executing depfiles commands
+[118.427s]   CXX      libgpiodcxx_la-request-config.lo
+[118.997s] config.status: executing libtool commands
+[119.054s] [ 50%] [34m[1mPerforming build step for 'ep_liblely'[0m
+[119.066s] Making all in doc
+[119.067s] Making all in include
+[119.075s] Making all in src
+[119.082s] Making all in libc
+[119.085s]   CC       liblely_libc_la-clock.lo
+[119.132s]   CC       liblely_libc_la-time.lo
+[119.179s]   CC       liblely_libc_la-threads-pthread.lo
+[119.236s]   CC       liblely_libc_la-sleep.lo
+[119.297s]   CC       liblely_libc_la-strings.lo
+[119.341s]   CC       liblely_libc_la-string.lo
+[119.399s]   CC       liblely_libc_la-stdlib.lo
+[119.448s]   CC       liblely_libc_la-stdio.lo
+[119.507s]   CC       liblely_libc_la-stdatomic.lo
+[119.551s]   CC       liblely_libc_la-getopt.lo
+[119.596s]   CCLD     liblely-libc.la
+[119.696s] Making all in tap
+[119.699s]   CC       liblely_tap_la-tap.lo
+[119.756s]   CCLD     liblely-tap.la
+[119.848s] Making all in util
+[119.851s]   CC       liblely_util_la-bimap.lo
+[119.855s]   CXX      libgpiodcxx_la-request-builder.lo
+[119.916s]   CC       liblely_util_la-diag.lo
+[119.990s]   CC       liblely_util_la-dllist.lo
+[120.055s]   CC       liblely_util_la-endian.lo
+[120.124s]   CC       liblely_util_la-errnum.lo
+[120.186s]   CXX      liblely_util_la-exception.lo
+[120.324s]   CC       liblely_util_la-fiber.lo
+[120.391s]   CC       liblely_util_la-frbuf.lo
+[120.456s]   CC       liblely_util_la-fwbuf.lo
+[120.528s]   CC       liblely_util_la-lex.lo
+[120.639s]   CC       liblely_util_la-membuf.lo
+[120.704s]   CC       liblely_util_la-pheap.lo
+[120.769s]   CC       liblely_util_la-print.lo
+[120.850s]   CC       liblely_util_la-rbtree.lo
+[120.913s]   CC       liblely_util_la-stop.lo
+[120.991s]   CC       liblely_util_la-time.lo
+[121.049s]   CC       liblely_util_la-ustring.lo
+[121.101s]   CC       liblely_util_la-daemon.lo
+[121.144s]   CXX      libgpiodcxx_la-misc.lo
+[121.171s]   CC       liblely_util_la-config_ini.lo
+[121.251s]   CC       liblely_util_la-config.lo
+[121.321s]   CC       liblely_util_la-cmp.lo
+[121.387s]   CC       liblely_util_la-bitset.lo
+[121.454s]   CC       liblely_util_la-bits.lo
+[121.516s]   CC       liblely_util_la-spscring.lo
+[121.581s]   CC       liblely_util_la-sllist.lo
+[121.635s]   CC       liblely_util_la-mkjmp.lo
+[121.690s]   CXXLD    liblely-util.la
+[121.862s] Making all in can
+[121.865s]   CC       liblely_can_la-buf.lo
+[121.925s]   CC       liblely_can_la-socket.lo
+[121.984s]   CC       liblely_can_la-net.lo
+[122.069s]   CC       liblely_can_la-msg.lo
+[122.137s]   CCLD     liblely-can.la
+[122.213s]   CXX      libgpiodcxx_la-line-settings.lo
+[122.259s] Making all in co
+[122.262s]   CC       liblely_co_la-crc.lo
+[122.312s]   CC       liblely_co_la-nmt_cfg.lo
+[122.389s]   CC       liblely_co_la-nmt_hb.lo
+[122.451s]   CC       liblely_co_la-nmt_srv.lo
+[122.523s]   CC       liblely_co_la-obj.lo
+[122.649s]   CC       liblely_co_la-pdo.lo
+[122.725s]   CC       liblely_co_la-rpdo.lo
+[122.806s]   CC       liblely_co_la-sdev.lo
+[122.909s]   CC       liblely_co_la-sdo.lo
+[122.979s]   CC       liblely_co_la-ssdo.lo
+[123.103s]   CC       liblely_co_la-sync.lo
+[123.177s]   CC       liblely_co_la-time.lo
+[123.254s]   CC       liblely_co_la-tpdo.lo
+[123.348s]   CC       liblely_co_la-type.lo
+[123.398s]   CC       liblely_co_la-val.lo
+[123.526s]   CC       liblely_co_la-wtm.lo
+[123.619s]   CC       liblely_co_la-nmt_boot.lo
+[123.720s]   CC       liblely_co_la-nmt.lo
+[123.881s]   CC       liblely_co_la-lss.lo
+[124.007s]   CC       liblely_co_la-gw_txt.lo
+[124.164s]   CC       liblely_co_la-gw.lo
+[124.301s]   CC       liblely_co_la-emcy.lo
+[124.395s]   CC       liblely_co_la-dev.lo
+[124.513s]   CC       liblely_co_la-dcf.lo
+[124.621s]   CC       liblely_co_la-csdo.lo
+[124.770s]   CCLD     liblely-co.la
+[124.960s] Making all in io
+[124.963s]   CC       liblely_io_la-addr.lo
+[125.045s]   CC       liblely_io_la-serial.lo
+[125.111s]   CC       liblely_io_la-sock.lo
+[125.220s]   CC       liblely_io_la-rtnl.lo
+[125.290s]   CC       liblely_io_la-poll.lo
+[125.377s]   CC       liblely_io_la-pipe.lo
+[125.438s]   CC       liblely_io_la-io.lo
+[125.511s]   CC       liblely_io_la-if.lo
+[125.580s]   CC       liblely_io_la-handle.lo
+[125.644s]   CC       liblely_io_la-file.lo
+[125.721s]   CC       liblely_io_la-can.lo
+[125.803s]   CC       liblely_io_la-attr.lo
+[125.857s]   CXX      libgpiodcxx_la-line-request.lo
+[125.868s]   CCLD     liblely-io.la
+[126.057s] Making all in ev
+[126.060s]   CC       liblely_ev_la-exec.lo
+[126.110s]   CC       liblely_ev_la-thrd_loop.lo
+[126.166s]   CC       liblely_ev_la-task.lo
+[126.217s]   CC       liblely_ev_la-strand.lo
+[126.284s]   CC       liblely_ev_la-std_exec.lo
+[126.349s]   CC       liblely_ev_la-poll.lo
+[126.396s]   CC       liblely_ev_la-loop.lo
+[126.488s]   CC       liblely_ev_la-future.lo
+[126.569s]   CC       liblely_ev_la-fiber_exec.lo
+[126.652s]   CCLD     liblely-ev.la
+[126.782s] Making all in io2
+[126.789s]   CC       liblely_io2_la-can.lo
+[126.847s]   CC       liblely_io2_la-can_net.lo
+[126.940s]   CC       liblely_io2_la-can_rt.lo
+[127.031s]   CC       liblely_io2_la-clock.lo
+[127.081s]   CC       liblely_io2_la-ctx.lo
+[127.143s]   CC       liblely_io2_la-dev.lo
+[127.191s]   CC       liblely_io2_la-sigset.lo
+[127.248s]   CC       liblely_io2_la-timer.lo
+[127.303s]   CC       liblely_io2_la-tqueue.lo
+[127.385s]   CC       liblely_io2_la-vcan.lo
+[127.501s]   CC       user/liblely_io2_la-timer.lo
+[127.534s]   CXX      libgpiodcxx_la-line-info.lo
+[127.585s]   CC       user/liblely_io2_la-can.lo
+[127.682s]   CC       sys/liblely_io2_la-io.lo
+[127.727s]   CC       sys/liblely_io2_la-clock.lo
+[127.794s]   CC       posix/liblely_io2_la-sigset.lo
+[127.888s]   CC       posix/liblely_io2_la-io.lo
+[127.934s]   CC       posix/liblely_io2_la-fd.lo
+[127.995s]   CC       linux/liblely_io2_la-timer.lo
+[128.075s]   CC       can/liblely_io2_la-msg.lo
+[128.126s]   CC       linux/liblely_io2_la-poll.lo
+[128.199s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[128.288s]   CC       linux/liblely_io2_la-can_chan.lo
+[128.423s]   CCLD     liblely-io2.la
+[128.620s] Making all in coapp
+[128.623s]   CXX      liblely_coapp_la-device.lo
+[129.654s]   CXX      liblely_coapp_la-slave.lo
+[129.804s]   CXX      libgpiodcxx_la-line-config.lo
+[130.848s]   CXX      liblely_coapp_la-type_traits.lo
+[131.040s]   CXX      liblely_coapp_la-sdo_error.lo
+[131.302s]   CXX      liblely_coapp_la-sdo.lo
+[131.722s]   CXX      libgpiodcxx_la-line.lo
+[132.016s]   CXX      liblely_coapp_la-node.lo
+[132.586s]   CXX      liblely_coapp_la-master.lo
+[133.336s]   CXX      liblely_coapp_la-lss_master.lo
+[133.992s]   CXX      liblely_coapp_la-loop_driver.lo
+[134.093s]   CXX      libgpiodcxx_la-internal.lo
+[134.412s]   CXX      liblely_coapp_la-logical_driver.lo
+[134.911s]   CXX      liblely_coapp_la-fiber_driver.lo
+[135.107s]   CXX      libgpiodcxx_la-info-event.lo
+[135.256s]   CXX      liblely_coapp_la-driver.lo
+[135.782s]   CXXLD    liblely-coapp.la
+[136.098s] Making all in python
+[136.104s] Making all in dcf-tools
+[136.106s] Making all in can
+[136.107s] Making all in io
+[136.111s] Making all in pkgconfig
+[136.113s] Making all in tools
+[136.117s]   CC       can2udp.o
+[136.169s]   CC       dcf2c.o
+[136.206s]   CCLD     can2udp
+[136.413s]   CCLD     dcf2c
+[136.569s]   CC       cocatd.o
+[136.624s]   CC       cocat.o
+[136.656s]   CXX      libgpiodcxx_la-exception.lo
+[136.668s]   CCLD     cocatd
+[136.867s]   CCLD     cocat
+[137.067s]   CC       coctl.o
+[137.129s]   CCLD     coctl
+[137.346s] [ 54%] [34m[1mPerforming install step for 'ep_liblely'[0m
+[137.348s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[137.354s] Making install in doc
+[137.358s] Making install in include
+[137.369s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include'
+[137.375s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co'
+[137.377s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/co.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/crc.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/csdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/csdo.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/dcf.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/dcf.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/dev.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/dev.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/emcy.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/emcy.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/gw.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/gw.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/gw_txt.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/gw_txt.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/lss.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/lss.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/nmt.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/nmt.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/obj.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/obj.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/pdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/rpdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/rpdo.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/sdev.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/sdev.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/sdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/ssdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/ssdo.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/sync.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/sync.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/time.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/time.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/tpdo.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/tpdo.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/type.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/type.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/val.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/val.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/wtm.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/wtm.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co'
+[137.379s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/posix'
+[137.381s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/posix/poll.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/posix/poll.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/posix'
+[137.382s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/can'
+[137.383s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/buf.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/buf.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/err.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/msg.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/net.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/net.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/can/socket.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/can'
+[137.385s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/ev'
+[137.386s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/co_task.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/ev.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/exec.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/exec.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/fiber_exec.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/fiber_exec.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/future.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/future.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/loop.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/loop.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/poll.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/poll.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/std_exec.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/strand.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/strand.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/task.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/task.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/thrd_loop.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/ev/thrd_loop.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/ev'
+[137.388s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co/def'
+[137.389s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/def/array.def /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/def/basic.def /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/def/cxx.def /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/def/time.def /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/def/type.def '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co/def'
+[137.391s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely'
+[137.392s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/features.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely'
+[137.393s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io'
+[137.395s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/addr.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/attr.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/can.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/can.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/file.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/file.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/if.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/io.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/io.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/pipe.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/pipe.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/poll.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/poll.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/serial.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/serial.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/sock.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io/sock.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io'
+[137.396s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/util/def'
+[137.397s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/def/type.def '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/util/def'
+[137.398s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co/detail'
+[137.399s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/detail/dev.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/co/detail/obj.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/co/detail'
+[137.401s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/can'
+[137.402s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can/err.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can/err.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can/msg.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can/msg.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/can'
+[137.403s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/coapp'
+[137.404s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/type_traits.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/device.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/driver.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/fiber_driver.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/logical_driver.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/loop_driver.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/lss_master.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/master.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/node.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/sdo.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/sdo_error.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/coapp/slave.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/coapp'
+[137.406s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2'
+[137.408s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can_net.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can_net.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can_rt.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/can_rt.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/clock.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/clock.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/co_can.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/co_can_rt.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/co_sigset.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/co_timer.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/co_tqueue.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/ctx.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/ctx.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/dev.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/dev.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/event.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/event.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/io2.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sigset.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sigset.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/timer.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/timer.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/tqueue.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/tqueue.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/vcan.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/vcan.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2'
+[137.410s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/linux'
+[137.411s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/linux/can.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/linux/can.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/linux'
+[137.412s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/libc/sys'
+[137.413s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/sys/types.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/libc/sys'
+[137.415s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/user'
+[137.416s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/user/can.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/user/can.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/user/timer.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/user/timer.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/user'
+[137.417s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/sys'
+[137.418s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/clock.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/clock.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/io.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/io.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/sigset.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/sigset.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/timer.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/io2/sys/timer.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/io2/sys'
+[137.420s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/tap'
+[137.421s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/tap/tap.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/tap'
+[137.423s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/util'
+[137.425s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/bimap.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/coroutine.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/coroutine.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/mkjmp.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/sllist.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/spscring.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/bits.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/bitset.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/c_call.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/c_type.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/chrono.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/cmp.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/config.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/daemon.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/diag.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/dllist.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/endian.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/errnum.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/error.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/exception.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/fiber.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/fiber.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/float.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/frbuf.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/fwbuf.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/invoker.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/lex.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/membuf.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/mutex.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/pheap.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/print.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/rbtree.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/result.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/stop.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/stop.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/time.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/ustring.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/util/util.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/util'
+[137.427s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/libc'
+[137.429s]  /usr/bin/install -c -m 644  /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/chrono.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/functional.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/stdatomic.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/stddef.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/stdint.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/stdio.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/stdlib.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/string.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/strings.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/threads.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/time.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/type_traits.hpp /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/uchar.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/unistd.h /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/include/lely/libc/utility.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/lely/libc'
+[137.431s] Making install in src
+[137.438s] Making install in libc
+[137.462s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.463s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.485s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.3.3 /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-libc.so.2.3.3
+[137.488s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-libc.so.2.3.3 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.3.3 liblely-libc.so.2; }; })
+[137.491s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-libc.so.2.3.3 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.3.3 liblely-libc.so; }; })
+[137.496s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-libc.la
+[137.520s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[137.524s] ----------------------------------------------------------------------
+[137.524s] Libraries have been installed in:
+[137.525s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[137.525s] 
+[137.525s] If you ever happen to want to link against installed libraries
+[137.525s] in a given directory, LIBDIR, you must either use libtool, and
+[137.525s] specify the full pathname of the library, or use the '-LLIBDIR'
+[137.525s] flag during linking and do at least one of the following:
+[137.525s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[137.525s]      during execution
+[137.525s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[137.525s]      during linking
+[137.525s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[137.525s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[137.525s] 
+[137.525s] See any operating system documentation about shared libraries for
+[137.525s] more information, such as the ld(1) and ld.so(8) manual pages.
+[137.525s] ----------------------------------------------------------------------
+[137.528s] Making install in tap
+[137.540s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.541s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.605s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-tap.la'(B[m
+[137.607s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/tap; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-tap.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la )
+[137.686s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-tap.so.2.3.3
+[137.689s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-tap.so.2.3.3 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.3.3 liblely-tap.so.2; }; })
+[137.692s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-tap.so.2.3.3 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.3.3 liblely-tap.so; }; })
+[137.696s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-tap.la
+[137.706s]   CXX      libgpiodcxx_la-edge-event.lo
+[137.719s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[137.721s] ----------------------------------------------------------------------
+[137.721s] Libraries have been installed in:
+[137.721s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[137.721s] 
+[137.721s] If you ever happen to want to link against installed libraries
+[137.721s] in a given directory, LIBDIR, you must either use libtool, and
+[137.721s] specify the full pathname of the library, or use the '-LLIBDIR'
+[137.721s] flag during linking and do at least one of the following:
+[137.721s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[137.721s]      during execution
+[137.721s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[137.721s]      during linking
+[137.721s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[137.721s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[137.721s] 
+[137.721s] See any operating system documentation about shared libraries for
+[137.721s] more information, such as the ld(1) and ld.so(8) manual pages.
+[137.721s] ----------------------------------------------------------------------
+[137.724s] Making install in util
+[137.763s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.764s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[137.825s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-util.la'(B[m
+[137.827s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/util; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-util.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm )
+[137.986s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-util.so.2.3.3
+[137.989s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-util.so.2.3.3 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.3.3 liblely-util.so.2; }; })
+[137.992s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-util.so.2.3.3 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.3.3 liblely-util.so; }; })
+[137.997s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-util.la
+[138.021s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.023s] ----------------------------------------------------------------------
+[138.023s] Libraries have been installed in:
+[138.023s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.023s] 
+[138.023s] If you ever happen to want to link against installed libraries
+[138.023s] in a given directory, LIBDIR, you must either use libtool, and
+[138.023s] specify the full pathname of the library, or use the '-LLIBDIR'
+[138.023s] flag during linking and do at least one of the following:
+[138.023s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[138.023s]      during execution
+[138.023s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[138.023s]      during linking
+[138.023s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[138.023s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[138.023s] 
+[138.023s] See any operating system documentation about shared libraries for
+[138.023s] more information, such as the ld(1) and ld.so(8) manual pages.
+[138.023s] ----------------------------------------------------------------------
+[138.026s] Making install in can
+[138.051s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.052s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.113s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-can.la'(B[m
+[138.115s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/can; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[138.214s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-can.so.1.9.2
+[138.217s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[138.220s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[138.224s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-can.la
+[138.249s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.250s] ----------------------------------------------------------------------
+[138.250s] Libraries have been installed in:
+[138.250s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.250s] 
+[138.250s] If you ever happen to want to link against installed libraries
+[138.250s] in a given directory, LIBDIR, you must either use libtool, and
+[138.250s] specify the full pathname of the library, or use the '-LLIBDIR'
+[138.251s] flag during linking and do at least one of the following:
+[138.251s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[138.251s]      during execution
+[138.251s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[138.251s]      during linking
+[138.251s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[138.251s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[138.251s] 
+[138.251s] See any operating system documentation about shared libraries for
+[138.251s] more information, such as the ld(1) and ld.so(8) manual pages.
+[138.251s] ----------------------------------------------------------------------
+[138.254s] Making install in co
+[138.283s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.284s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.345s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-co.la'(B[m
+[138.347s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/co; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-co.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[138.506s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-co.so.2.3.3
+[138.510s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-co.so.2.3.3 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.3.3 liblely-co.so.2; }; })
+[138.513s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-co.so.2.3.3 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.3.3 liblely-co.so; }; })
+[138.517s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-co.la
+[138.541s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.542s] ----------------------------------------------------------------------
+[138.542s] Libraries have been installed in:
+[138.542s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.542s] 
+[138.542s] If you ever happen to want to link against installed libraries
+[138.543s] in a given directory, LIBDIR, you must either use libtool, and
+[138.543s] specify the full pathname of the library, or use the '-LLIBDIR'
+[138.543s] flag during linking and do at least one of the following:
+[138.543s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[138.543s]      during execution
+[138.543s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[138.543s]      during linking
+[138.543s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[138.543s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[138.543s] 
+[138.543s] See any operating system documentation about shared libraries for
+[138.543s] more information, such as the ld(1) and ld.so(8) manual pages.
+[138.543s] ----------------------------------------------------------------------
+[138.545s] Making install in io
+[138.572s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.573s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.632s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-io.la'(B[m
+[138.633s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/io; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[138.762s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-io.so.1.9.2
+[138.765s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[138.768s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[138.773s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-io.la
+[138.797s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.799s] ----------------------------------------------------------------------
+[138.799s] Libraries have been installed in:
+[138.799s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[138.799s] 
+[138.799s] If you ever happen to want to link against installed libraries
+[138.799s] in a given directory, LIBDIR, you must either use libtool, and
+[138.799s] specify the full pathname of the library, or use the '-LLIBDIR'
+[138.799s] flag during linking and do at least one of the following:
+[138.799s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[138.799s]      during execution
+[138.799s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[138.799s]      during linking
+[138.799s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[138.799s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[138.799s] 
+[138.800s] See any operating system documentation about shared libraries for
+[138.800s] more information, such as the ld(1) and ld.so(8) manual pages.
+[138.800s] ----------------------------------------------------------------------
+[138.803s] Making install in ev
+[138.820s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.821s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[138.883s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-ev.la'(B[m
+[138.885s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/ev; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-ev.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[138.993s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-ev.so.2.3.3
+[138.996s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-ev.so.2.3.3 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.3.3 liblely-ev.so.2; }; })
+[139.000s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-ev.so.2.3.3 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.3.3 liblely-ev.so; }; })
+[139.004s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-ev.la
+[139.029s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.031s] ----------------------------------------------------------------------
+[139.031s] Libraries have been installed in:
+[139.031s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.031s] 
+[139.031s] If you ever happen to want to link against installed libraries
+[139.031s] in a given directory, LIBDIR, you must either use libtool, and
+[139.031s] specify the full pathname of the library, or use the '-LLIBDIR'
+[139.031s] flag during linking and do at least one of the following:
+[139.031s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[139.031s]      during execution
+[139.031s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[139.031s]      during linking
+[139.031s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[139.031s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[139.031s] 
+[139.031s] See any operating system documentation about shared libraries for
+[139.031s] more information, such as the ld(1) and ld.so(8) manual pages.
+[139.031s] ----------------------------------------------------------------------
+[139.034s] Making install in io2
+[139.075s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[139.076s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[139.137s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-io2.la'(B[m
+[139.139s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/io2; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-io2.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt )
+[139.288s]   CXX      libgpiodcxx_la-edge-event-buffer.lo
+[139.311s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-io2.so.2.3.3
+[139.314s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-io2.so.2.3.3 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.3.3 liblely-io2.so.2; }; })
+[139.316s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-io2.so.2.3.3 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.3.3 liblely-io2.so; }; })
+[139.321s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-io2.la
+[139.345s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.346s] ----------------------------------------------------------------------
+[139.346s] Libraries have been installed in:
+[139.347s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.347s] 
+[139.347s] If you ever happen to want to link against installed libraries
+[139.347s] in a given directory, LIBDIR, you must either use libtool, and
+[139.347s] specify the full pathname of the library, or use the '-LLIBDIR'
+[139.347s] flag during linking and do at least one of the following:
+[139.347s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[139.347s]      during execution
+[139.347s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[139.347s]      during linking
+[139.347s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[139.347s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[139.347s] 
+[139.347s] See any operating system documentation about shared libraries for
+[139.347s] more information, such as the ld(1) and ld.so(8) manual pages.
+[139.347s] ----------------------------------------------------------------------
+[139.350s] Making install in coapp
+[139.386s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[139.388s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[139.449s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-coapp.la'(B[m
+[139.451s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/src/coapp; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/src/ep_liblely-build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -DNDEBUG -no-undefined -version-number 2:3:3 -Wl,--as-needed -o liblely-coapp.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la )
+[139.742s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.3.3T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-coapp.so.2.3.3
+[139.746s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-coapp.so.2.3.3 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.3.3 liblely-coapp.so.2; }; })
+[139.749s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f liblely-coapp.so.2.3.3 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.3.3 liblely-coapp.so; }; })
+[139.754s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/liblely-coapp.la
+[139.779s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.780s] ----------------------------------------------------------------------
+[139.780s] Libraries have been installed in:
+[139.781s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[139.781s] 
+[139.781s] If you ever happen to want to link against installed libraries
+[139.781s] in a given directory, LIBDIR, you must either use libtool, and
+[139.781s] specify the full pathname of the library, or use the '-LLIBDIR'
+[139.781s] flag during linking and do at least one of the following:
+[139.781s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[139.781s]      during execution
+[139.781s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[139.781s]      during linking
+[139.781s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[139.781s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[139.781s] 
+[139.782s] See any operating system documentation about shared libraries for
+[139.782s] more information, such as the ld(1) and ld.so(8) manual pages.
+[139.782s] ----------------------------------------------------------------------
+[139.788s] Making install in python
+[139.795s] Making install in dcf-tools
+[139.799s] Making install in can
+[139.803s] Making install in io
+[139.811s] Making install in pkgconfig
+[139.816s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[139.819s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[139.821s] Making install in tools
+[139.843s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/bin'
+[139.846s]   /bin/bash ../libtool   --mode=install /usr/bin/install -c can2udp coctl cocat cocatd dcf2c '/husarion_ws/install/husarion_ugv_hardware_interfaces/bin'
+[139.881s] libtool: install: /usr/bin/install -c .libs/can2udp /husarion_ws/install/husarion_ugv_hardware_interfaces/bin/can2udp
+[139.900s] libtool: install: /usr/bin/install -c .libs/coctl /husarion_ws/install/husarion_ugv_hardware_interfaces/bin/coctl
+[139.919s] libtool: install: /usr/bin/install -c .libs/cocat /husarion_ws/install/husarion_ugv_hardware_interfaces/bin/cocat
+[139.938s] libtool: install: /usr/bin/install -c .libs/cocatd /husarion_ws/install/husarion_ugv_hardware_interfaces/bin/cocatd
+[139.957s] libtool: install: /usr/bin/install -c .libs/dcf2c /husarion_ws/install/husarion_ugv_hardware_interfaces/bin/dcf2c
+[139.960s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/etc'
+[139.962s]  /usr/bin/install -c -m 644 /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/tools/coctl.dcf /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_liblely/upstream/tools/cocatd.dcf '/husarion_ws/install/husarion_ugv_hardware_interfaces/etc'
+[139.985s] [ 58%] [34m[1mCompleted 'ep_liblely'[0m
+[140.015s] [ 58%] Built target ep_liblely
+[140.569s]   CXX      libgpiodcxx_la-chip-info.lo
+[141.643s]   CXXLD    libgpiodcxx.la
+[141.915s] [ 62%] [34m[1mPerforming install step for 'ep_libgpiod'[0m
+[141.917s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[141.922s] Making install in include
+[141.926s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include'
+[141.929s]  /usr/bin/install -c -m 644 gpiod.h '/husarion_ws/install/husarion_ugv_hardware_interfaces/include'
+[141.930s] Making install in lib
+[141.948s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[141.949s]  /bin/bash ../libtool   --mode=install /usr/bin/install -c   libgpiod.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[141.970s] libtool: install: /usr/bin/install -c .libs/libgpiod.so.3.0.1 /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiod.so.3.0.1
+[141.972s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f libgpiod.so.3.0.1 libgpiod.so.3 || { rm -f libgpiod.so.3 && ln -s libgpiod.so.3.0.1 libgpiod.so.3; }; })
+[141.975s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f libgpiod.so.3.0.1 libgpiod.so || { rm -f libgpiod.so && ln -s libgpiod.so.3.0.1 libgpiod.so; }; })
+[141.980s] libtool: install: /usr/bin/install -c .libs/libgpiod.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiod.la
+[141.984s] libtool: install: /usr/bin/install -c .libs/libgpiod.a /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiod.a
+[141.987s] libtool: install: chmod 644 /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiod.a
+[141.989s] libtool: install: ranlib /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiod.a
+[142.014s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[142.016s] ----------------------------------------------------------------------
+[142.016s] Libraries have been installed in:
+[142.016s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[142.016s] 
+[142.016s] If you ever happen to want to link against installed libraries
+[142.016s] in a given directory, LIBDIR, you must either use libtool, and
+[142.016s] specify the full pathname of the library, or use the '-LLIBDIR'
+[142.016s] flag during linking and do at least one of the following:
+[142.016s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[142.016s]      during execution
+[142.016s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[142.016s]      during linking
+[142.016s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[142.016s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[142.016s] 
+[142.016s] See any operating system documentation about shared libraries for
+[142.016s] more information, such as the ld(1) and ld.so(8) manual pages.
+[142.016s] ----------------------------------------------------------------------
+[142.017s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[142.019s]  /usr/bin/install -c -m 644 libgpiod.pc '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[142.021s] Making install in bindings
+[142.027s] Making install in .
+[142.030s] Making install in cxx
+[142.042s] Making install in gpiodcxx
+[142.046s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/gpiodcxx'
+[142.048s]  /usr/bin/install -c -m 644 chip.hpp chip-info.hpp edge-event-buffer.hpp edge-event.hpp exception.hpp info-event.hpp line.hpp line-config.hpp line-info.hpp line-request.hpp line-settings.hpp misc.hpp request-builder.hpp request-config.hpp timestamp.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include/gpiodcxx'
+[142.050s] Making install in .
+[142.080s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[142.081s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libgpiodcxx.la '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib'
+[142.140s] libtool: [31mwarning(B[m: [1mrelinking 'libgpiodcxx.la'(B[m
+[142.141s] libtool: install: (cd /husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod/bindings/cxx; /bin/bash "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++17 -Wall -Wextra -g -std=gnu++17 -fvisibility=hidden -I../../include/ -g -O2 -version-info 2:0:0 -lgpiod -L../../lib -o libgpiodcxx.la -rpath /husarion_ws/install/husarion_ugv_hardware_interfaces/lib libgpiodcxx_la-chip.lo libgpiodcxx_la-chip-info.lo libgpiodcxx_la-edge-event-buffer.lo libgpiodcxx_la-edge-event.lo libgpiodcxx_la-exception.lo libgpiodcxx_la-info-event.lo libgpiodcxx_la-internal.lo libgpiodcxx_la-line.lo libgpiodcxx_la-line-config.lo libgpiodcxx_la-line-info.lo libgpiodcxx_la-line-request.lo libgpiodcxx_la-line-settings.lo libgpiodcxx_la-misc.lo libgpiodcxx_la-request-builder.lo libgpiodcxx_la-request-config.lo )
+[142.318s] libtool: install: /usr/bin/install -c .libs/libgpiodcxx.so.2.0.0T /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiodcxx.so.2.0.0
+[142.323s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f libgpiodcxx.so.2.0.0 libgpiodcxx.so.2 || { rm -f libgpiodcxx.so.2 && ln -s libgpiodcxx.so.2.0.0 libgpiodcxx.so.2; }; })
+[142.325s] libtool: install: (cd /husarion_ws/install/husarion_ugv_hardware_interfaces/lib && { ln -s -f libgpiodcxx.so.2.0.0 libgpiodcxx.so || { rm -f libgpiodcxx.so && ln -s libgpiodcxx.so.2.0.0 libgpiodcxx.so; }; })
+[142.330s] libtool: install: /usr/bin/install -c .libs/libgpiodcxx.lai /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiodcxx.la
+[142.334s] libtool: install: /usr/bin/install -c .libs/libgpiodcxx.a /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiodcxx.a
+[142.341s] libtool: install: chmod 644 /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiodcxx.a
+[142.343s] libtool: install: ranlib /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libgpiodcxx.a
+[142.385s] libtool: finish: PATH="/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[142.387s] ----------------------------------------------------------------------
+[142.387s] Libraries have been installed in:
+[142.387s]    /husarion_ws/install/husarion_ugv_hardware_interfaces/lib
+[142.387s] 
+[142.387s] If you ever happen to want to link against installed libraries
+[142.387s] in a given directory, LIBDIR, you must either use libtool, and
+[142.387s] specify the full pathname of the library, or use the '-LLIBDIR'
+[142.387s] flag during linking and do at least one of the following:
+[142.387s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[142.387s]      during execution
+[142.387s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[142.387s]      during linking
+[142.387s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[142.387s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[142.387s] 
+[142.387s] See any operating system documentation about shared libraries for
+[142.387s] more information, such as the ld(1) and ld.so(8) manual pages.
+[142.387s] ----------------------------------------------------------------------
+[142.388s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/include'
+[142.391s]  /usr/bin/install -c -m 644 gpiod.hpp '/husarion_ws/install/husarion_ugv_hardware_interfaces/include'
+[142.393s]  /usr/bin/mkdir -p '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[142.395s]  /usr/bin/install -c -m 644 libgpiodcxx.pc '/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/pkgconfig'
+[142.418s] [ 66%] [34m[1mCompleted 'ep_libgpiod'[0m
+[142.445s] [ 66%] Built target ep_libgpiod
+[142.462s] [ 70%] [34m[1mCreating directories for 'ep_husarion_ugv_hardware_interfaces'[0m
+[142.484s] [ 75%] [34m[1mNo download step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[142.504s] [ 79%] [34m[1mNo update step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[142.523s] [ 83%] [34m[1mNo patch step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[142.543s] [ 87%] [34m[1mPerforming configure step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[142.590s] -- The C compiler identification is GNU 13.3.0
+[142.629s] -- The CXX compiler identification is GNU 13.3.0
+[142.639s] -- Detecting C compiler ABI info
+[142.707s] -- Detecting C compiler ABI info - done
+[142.713s] -- Check for working C compiler: /usr/bin/cc - skipped
+[142.713s] -- Detecting C compile features
+[142.714s] -- Detecting C compile features - done
+[142.720s] -- Detecting CXX compiler ABI info
+[142.795s] -- Detecting CXX compiler ABI info - done
+[142.801s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[142.801s] -- Detecting CXX compile features
+[142.802s] -- Detecting CXX compile features - done
+[142.814s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[142.944s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[143.063s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[143.068s] -- Found controller_interface: 4.29.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[143.131s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[143.147s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[143.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[143.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[143.385s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[143.435s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[143.439s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[143.467s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[143.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[143.513s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[143.526s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[143.528s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[143.536s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[143.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[143.788s] -- Found diagnostic_updater: 4.2.4 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[143.815s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[143.823s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[143.853s] -- Found imu_filter_madgwick: 2.1.5 (/opt/ros/jazzy/share/imu_filter_madgwick/cmake)
+[143.856s] -- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+[143.871s] -- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+[143.883s] -- Found phidgets_api: 2.3.4 (/opt/ros/jazzy/share/phidgets_api/cmake)
+[143.893s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[143.897s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[143.914s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[143.929s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[143.930s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[143.930s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[144.011s] -- Checking for module 'liblely-coapp'
+[144.025s] --   Found liblely-coapp, version 2.3.3
+[144.054s] -- Checking for module 'libgpiodcxx'
+[144.067s] --   Found libgpiodcxx, version 2.0.2
+[144.110s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[144.114s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[144.118s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[144.121s] -- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[144.125s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[144.229s] -- Found PythonExtra: /usr/bin/python3  
+[144.235s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[144.241s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[144.347s] -- Configuring done (1.8s)
+[144.428s] -- Generating done (0.1s)
+[144.444s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_hardware_interfaces
+[144.471s] [ 91%] [34m[1mPerforming build step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[144.512s] [  1%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/phidgets_spatial_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_hardware_interfaces/src/phidgets_spatial_parameters.yaml `[0m
+[145.313s] [  2%] [34m[1mCreating deprecated header file /husarion_ws/build/husarion_ugv_hardware_interfaces/include/phidgets_spatial_parameters.hpp[0m
+[145.350s] [  2%] Built target phidgets_spatial_parameters
+[145.368s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[148.630s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[151.038s] [  6%] [32m[1mLinking CXX static library libgmock.a[0m
+[151.135s] [  6%] Built target gmock
+[151.192s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[151.204s] [  8%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/phidget_imu_sensor/phidget_imu_sensor.cpp.o[0m
+[151.206s] [ 10%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/gpio/gpio_controller.cpp.o[0m
+[151.207s] [ 11%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/gpio/gpio_driver.cpp.o[0m
+[152.287s] [ 12%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/system_e_stop.cpp.o[0m
+[152.398s] [ 14%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/panther_robot_driver.cpp.o[0m
+[152.414s] [ 15%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/lynx_robot_driver.cpp.o[0m
+[158.793s] [ 16%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[159.013s] [ 16%] Built target gmock_main
+[168.341s] [ 17%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_utils.dir/test/test_utils.cpp.o[0m
+[168.425s] [ 23%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/ugv_system.cpp.o[0m
+[168.426s] [ 23%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/panther_system.cpp.o[0m
+[168.426s] [ 23%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/utils.cpp.o[0m
+[168.426s] [ 23%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_utils.dir/src/utils.cpp.o[0m
+[170.873s] [ 24%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_roboteq_error_filter.dir/test/unit/robot_system/robot_driver/test_roboteq_error_filter.cpp.o[0m
+[171.304s] [ 25%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_roboteq_error_filter.dir/src/robot_system/robot_driver/roboteq_error_filter.cpp.o[0m
+[171.314s] [ 28%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/system_ros_interface.cpp.o[0m
+[171.315s] [ 28%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/lynx_system.cpp.o[0m
+[175.078s] [ 29%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_utils[0m
+[176.699s] [ 29%] Built target husarion_ugv_hardware_interfaces_test_utils
+[176.994s] [ 30%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_roboteq_data_converters.dir/test/unit/robot_system/robot_driver/test_roboteq_data_converters.cpp.o[0m
+[178.199s] [ 32%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_roboteq_error_filter[0m
+[178.991s] [ 32%] Built target husarion_ugv_hardware_interfaces_test_roboteq_error_filter
+[189.799s] [ 33%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_roboteq_data_converters.dir/src/robot_system/robot_driver/roboteq_data_converters.cpp.o[0m
+[196.880s] [ 34%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_roboteq_data_converters.dir/src/utils.cpp.o[0m
+[199.189s] [ 35%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_roboteq_data_converters[0m
+[200.276s] [ 35%] Built target husarion_ugv_hardware_interfaces_test_roboteq_data_converters
+[203.267s] [ 37%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/roboteq_error_filter.cpp.o[0m
+[203.269s] [ 39%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/roboteq_driver.cpp.o[0m
+[203.269s] [ 39%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/roboteq_robot_driver.cpp.o[0m
+[205.313s] [ 41%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/roboteq_data_converters.cpp.o[0m
+[205.314s] [ 42%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces.dir/src/robot_system/robot_driver/canopen_manager.cpp.o[0m
+[213.138s] [ 43%] [32m[1mLinking CXX shared library libhusarion_ugv_hardware_interfaces.so[0m
+[215.097s] [ 43%] Built target husarion_ugv_hardware_interfaces
+[215.171s] [ 44%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/test/unit/robot_system/test_ugv_system.cpp.o[0m
+[215.171s] [ 46%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/test/unit/robot_system/test_panther_system.cpp.o[0m
+[215.183s] [ 47%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/gpio/gpio_controller.cpp.o[0m
+[215.185s] [ 48%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_gpiod_controller.dir/src/robot_system/gpio/gpio_driver.cpp.o[0m
+[215.194s] [ 50%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_gpiod_controller.dir/src/robot_system/gpio/gpio_controller.cpp.o[0m
+[215.198s] [ 52%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/gpio/gpio_driver.cpp.o[0m
+[215.202s] [ 53%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_gpiod_controller.dir/test/unit/robot_system/gpio/test_gpio_controller.cpp.o[0m
+[215.202s] [ 55%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/test/unit/robot_system/test_lynx_system.cpp.o[0m
+[215.202s] [ 56%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/gpio/gpio_controller.cpp.o[0m
+[215.202s] [ 56%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/gpio/gpio_controller.cpp.o[0m
+[215.213s] [ 57%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/gpio/gpio_driver.cpp.o[0m
+[215.290s] [ 58%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/gpio/gpio_driver.cpp.o[0m
+[223.301s] [ 60%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/system_e_stop.cpp.o[0m
+[226.985s] [ 61%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/canopen_manager.cpp.o[0m
+[227.401s] [ 62%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/roboteq_robot_driver.cpp.o[0m
+[227.815s] [ 64%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/roboteq_data_converters.cpp.o[0m
+[228.574s] [ 65%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/system_e_stop.cpp.o[0m
+[230.500s] [ 66%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/canopen_manager.cpp.o[0m
+[230.573s] [ 67%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/roboteq_robot_driver.cpp.o[0m
+[233.768s] [ 69%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/roboteq_driver.cpp.o[0m
+[234.915s] [ 70%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/roboteq_error_filter.cpp.o[0m
+[237.110s] [ 71%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/robot_driver/lynx_robot_driver.cpp.o[0m
+[239.683s] [ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/system_e_stop.cpp.o[0m
+[240.081s] [ 74%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/roboteq_data_converters.cpp.o[0m
+[240.481s] [ 75%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/roboteq_driver.cpp.o[0m
+[241.770s] [ 76%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/robot_driver/roboteq_data_converters.cpp.o[0m
+[242.517s] [ 78%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/system_ros_interface.cpp.o[0m
+[243.298s] [ 79%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/lynx_system.cpp.o[0m
+[243.782s] [ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/robot_system/ugv_system.cpp.o[0m
+[248.299s] [ 82%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_gpiod_controller[0m
+[249.372s] [ 83%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/roboteq_error_filter.cpp.o[0m
+[250.577s] [ 83%] Built target husarion_ugv_hardware_interfaces_test_gpiod_controller
+[250.694s] [ 84%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_lynx_system.dir/src/utils.cpp.o[0m
+[251.009s] [ 85%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/robot_driver/panther_robot_driver.cpp.o[0m
+[252.172s] [ 87%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/system_ros_interface.cpp.o[0m
+[253.693s] [ 88%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/robot_driver/roboteq_error_filter.cpp.o[0m
+[254.713s] [ 89%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/system_ros_interface.cpp.o[0m
+[256.493s] [ 91%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/panther_system.cpp.o[0m
+[257.085s] [ 92%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/robot_system/ugv_system.cpp.o[0m
+[267.205s] [ 93%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/robot_system/ugv_system.cpp.o[0m
+[276.612s] [ 94%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_panther_system.dir/src/utils.cpp.o[0m
+[283.698s] [ 96%] [32mBuilding CXX object CMakeFiles/husarion_ugv_hardware_interfaces_test_ugv_system.dir/src/utils.cpp.o[0m
+[318.441s] [ 97%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_panther_system[0m
+[319.237s] [ 98%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_lynx_system[0m
+[319.284s] [ 98%] Built target husarion_ugv_hardware_interfaces_test_panther_system
+[319.733s] [100%] [32m[1mLinking CXX executable husarion_ugv_hardware_interfaces_test_ugv_system[0m
+[320.135s] [100%] Built target husarion_ugv_hardware_interfaces_test_lynx_system
+[320.384s] [100%] Built target husarion_ugv_hardware_interfaces_test_ugv_system
+[320.409s] [34m[1mNo install step for 'ep_husarion_ugv_hardware_interfaces'[0m
+[320.437s] [34m[1mCompleted 'ep_husarion_ugv_hardware_interfaces'[0m
+[320.463s] Built target ep_husarion_ugv_hardware_interfaces
+[320.473s] Invoked command in '/husarion_ws/build/husarion_ugv_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_hardware_interfaces -- -j12 -l12
+[320.475s] Invoking command in '/husarion_ws/build/husarion_ugv_hardware_interfaces': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_hardware_interfaces
+[320.490s] -- Install configuration: ""
+[320.490s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces
+[320.490s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/phidgets_spatial_parameters.hpp
+[320.490s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libhusarion_ugv_hardware_interfaces.so
+[320.496s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_hardware_interfaces/lib/libhusarion_ugv_hardware_interfaces.so" to ""
+[320.496s] -- Up-to-date: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces
+[320.496s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces
+[320.496s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/system_ros_interface.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/panther_system.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/gpio
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/gpio/types.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/gpio/gpio_driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/gpio/gpio_controller.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/canopen_manager.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/robot_driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/roboteq_data_converters.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/lynx_robot_driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/roboteq_robot_driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/roboteq_error_filter.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/panther_robot_driver.hpp
+[320.497s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/robot_driver/roboteq_driver.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/ugv_system.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/system_e_stop.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/robot_system/lynx_system.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/phidget_imu_sensor
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/phidget_imu_sensor/phidget_imu_sensor.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/include/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces/utils.hpp
+[320.498s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/config
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/config/roboteq_motor_controllers_v80_21a.eds
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/config/master.dcf
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/config/canopen_configuration.yaml
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/test/config
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/test/config/slave_1.bin
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/test/config/canopen_configuration.yaml
+[320.506s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/library_path.sh
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/library_path.dsv
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/husarion_ugv_hardware_interfaces.xml
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_hardware_interfaces
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_hardware_interfaces
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/ament_prefix_path.sh
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/ament_prefix_path.dsv
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/path.sh
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/environment/path.dsv
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/local_setup.bash
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/local_setup.sh
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/local_setup.zsh
+[320.507s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/local_setup.dsv
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/package.dsv
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/ament_index/resource_index/packages/husarion_ugv_hardware_interfaces
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/husarion_ugv_hardware_interfaces
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/export_husarion_ugv_hardware_interfacesExport.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/export_husarion_ugv_hardware_interfacesExport-noconfig.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/husarion_ugv_hardware_interfacesConfig.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/cmake/husarion_ugv_hardware_interfacesConfig-version.cmake
+[320.508s] -- Installing: /husarion_ws/install/husarion_ugv_hardware_interfaces/share/husarion_ugv_hardware_interfaces/package.xml
+[320.510s] Invoked command in '/husarion_ws/build/husarion_ugv_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_hardware_interfaces

@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (6.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /husarion_ws/build/husarion_ugv
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/ament_index/resource_index/package_run_dependencies/husarion_ugv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/ament_index/resource_index/parent_prefix_path/husarion_ugv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/path.sh
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/path.dsv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.bash
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.sh
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.zsh
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.dsv
+-- Symlinking: /husarion_ws/install/husarion_ugv/share/husarion_ugv/package.dsv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/ament_index/resource_index/packages/husarion_ugv
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/cmake/husarion_ugvConfig.cmake
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/cmake/husarion_ugvConfig-version.cmake
+-- Up-to-date symlink: /husarion_ws/install/husarion_ugv/share/husarion_ugv/package.xml

@@ -1,0 +1,1 @@
+/husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/test/utils/plugin_test_utils.hpp

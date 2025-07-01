@@ -1,0 +1,172 @@
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics
+[  6%] [34m[1mCreating directories for 'ep_cppuprofile'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'ep_cppuprofile'[0m
+Cloning into 'ep_cppuprofile'...
+HEAD is now at bf78ed1 Fix broken header installation (#9)
+[ 18%] [34m[1mPerforming update step for 'ep_cppuprofile'[0m
+[ 25%] [34m[1mNo patch step for 'ep_cppuprofile'[0m
+[ 31%] [34m[1mPerforming configure step for 'ep_cppuprofile'[0m
+[33mCMake Warning (dev) at CMakeLists.txt:1 (PROJECT):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[0mCMake Deprecation Warning at CMakeLists.txt:2 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at lib/CMakeLists.txt:2 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_POLICY_VERSION_MINIMUM
+
+[0m
+-- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics/ep_cppuprofile/src/ep_cppuprofile
+[ 37%] [34m[1mPerforming build step for 'ep_cppuprofile'[0m
+[ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/uprofile.cpp.o[0m
+[ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/util/timer.cpp.o[0m
+[ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/uprofileimpl.cpp.o[0m
+[ 80%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/util/cpumonitor.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcppuprofile.so[0m
+[100%] Built target cppuprofile
+[ 43%] [34m[1mPerforming install step for 'ep_cppuprofile'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[100%] Built target cppuprofile
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/api.h
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/uprofile.h
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/timestampunit.h
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/igpumonitor.h
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/libcppuprofile.so
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/pkgconfig/cppuprofile.pc
+[ 50%] [34m[1mCompleted 'ep_cppuprofile'[0m
+[ 50%] Built target ep_cppuprofile
+[ 56%] [34m[1mCreating directories for 'ep_husarion_ugv_diagnostics'[0m
+[ 62%] [34m[1mNo download step for 'ep_husarion_ugv_diagnostics'[0m
+[ 68%] [34m[1mNo update step for 'ep_husarion_ugv_diagnostics'[0m
+[ 75%] [34m[1mNo patch step for 'ep_husarion_ugv_diagnostics'[0m
+[ 81%] [34m[1mPerforming configure step for 'ep_husarion_ugv_diagnostics'[0m
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.2.4 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+-- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'cppuprofile'
+--   Found cppuprofile, version 
+-- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (30.0s)
+-- Generating done (0.5s)
+-- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics
+[ 87%] [34m[1mPerforming build step for 'ep_husarion_ugv_diagnostics'[0m
+[  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics/system_monitor_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_diagnostics/src/system_monitor_parameters.yaml `[0m
+[ 13%] [34m[1mCreating deprecated header file /husarion_ws/build/husarion_ugv_diagnostics/include/system_monitor_parameters.hpp[0m
+[ 13%] Built target system_monitor_parameters
+[ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 33%] Built target gmock
+[ 40%] [32mBuilding CXX object CMakeFiles/system_monitor_node.dir/src/main.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/system_monitor_node.dir/src/system_monitor_node.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable system_monitor_node[0m
+[ 53%] Built target system_monitor_node
+[ 60%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 66%] Built target gmock_main
+[ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_system_monitor.dir/test/unit/test_system_monitor_node.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_system_monitor.dir/src/system_monitor_node.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable husarion_ugv_diagnostics_test_system_monitor[0m
+[ 86%] Built target husarion_ugv_diagnostics_test_system_monitor
+[ 93%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_filesystem.dir/test/unit/test_filesystem.cpp.o[0m
+[100%] [32m[1mLinking CXX executable husarion_ugv_diagnostics_test_filesystem[0m
+[100%] Built target husarion_ugv_diagnostics_test_filesystem
+[34m[1mNo install step for 'ep_husarion_ugv_diagnostics'[0m
+[34m[1mCompleted 'ep_husarion_ugv_diagnostics'[0m
+Built target ep_husarion_ugv_diagnostics
+-- Install configuration: ""
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics/system_monitor_parameters.hpp
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/husarion_ugv_diagnostics/system_monitor_node
+-- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_diagnostics/lib/husarion_ugv_diagnostics/system_monitor_node" to ""
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/config
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/config/system_monitor.yaml
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/launch
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/launch/system_monitor.launch.py
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_diagnostics
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_diagnostics
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/ament_prefix_path.sh
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/ament_prefix_path.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/path.sh
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/path.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.bash
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.sh
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.zsh
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/package.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/packages/husarion_ugv_diagnostics
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/husarion_ugv_diagnosticsConfig.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/husarion_ugv_diagnosticsConfig-version.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/package.xml

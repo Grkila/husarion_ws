@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /husarion_ws/build/erc2025_remote_sim
+-- Install configuration: ""
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/start_locations.yaml
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/zed_modified.urdf.xacro
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/components.yaml
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/teleop.config
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch/sim_world.launch.py
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch/startsimulation.launch.py
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/marsyard2024_processed.stl
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/marsyard2024_processed.dae
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/base_color_4K.png
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/model.sdf
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/model.config
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/worlds
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/worlds/marsyard2024.world
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/env.sh
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/package_run_dependencies/erc2025_remote_sim
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/parent_prefix_path/erc2025_remote_sim
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/ament_prefix_path.sh
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/ament_prefix_path.dsv
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/path.sh
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/path.dsv
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.bash
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.sh
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.zsh
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.dsv
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/package.dsv
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/packages/erc2025_remote_sim
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/cmake/erc2025_remote_simConfig.cmake
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/cmake/erc2025_remote_simConfig-version.cmake
+-- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/package.xml

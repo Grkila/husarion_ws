@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ep_husarion_ugv_hardware_interfaces"
+  "CMakeFiles/ep_husarion_ugv_hardware_interfaces-complete"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-build"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-configure"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-download"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-install"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-mkdir"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-patch"
+  "ep_husarion_ugv_hardware_interfaces-prefix/src/ep_husarion_ugv_hardware_interfaces-stamp/ep_husarion_ugv_hardware_interfaces-update"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ep_husarion_ugv_hardware_interfaces.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

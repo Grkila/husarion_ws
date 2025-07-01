@@ -1,0 +1,136 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found diagnostic_updater: 4.2.4 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+-- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Configuring done (1.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /husarion_ws/build/husarion_ugv_battery
+[  1%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_battery/include/husarion_ugv_battery/battery_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_battery/src/battery_parameters.yaml `[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  6%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  6%] Built target gtest_main
+[  8%] [34m[1mCreating deprecated header file /husarion_ws/build/husarion_ugv_battery/include/battery_parameters.hpp[0m
+[  8%] Built target battery_parameters
+[  9%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/main.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery/adc_battery.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery_publisher/dual_battery_publisher.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery_driver_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery/roboteq_battery.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/battery_driver_node.dir/src/battery_publisher/single_battery_publisher.cpp.o[0m
+[ 21%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 21%] Built target gtest
+[ 22%] [32m[1mLinking CXX executable battery_driver_node[0m
+[ 22%] Built target battery_driver_node
+[ 24%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/test/test_battery_driver_node_roboteq.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery_driver_node.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery_publisher/dual_battery_publisher.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery_publisher/single_battery_publisher.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery/roboteq_battery.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_roboteq.dir/src/battery/adc_battery.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable husarion_ugv_battery_test_battery_driver_node_roboteq[0m
+[ 36%] Built target husarion_ugv_battery_test_battery_driver_node_roboteq
+[ 39%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_dual_battery_publisher.dir/test/battery_publisher/test_dual_battery_publisher.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_dual_battery_publisher.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_dual_battery_publisher.dir/src/battery/adc_battery.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/test/test_battery_driver_node_adc_dual.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/test/test_battery_driver_node_adc_single.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery/adc_battery.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery_driver_node.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_dual_battery_publisher.dir/src/battery_publisher/dual_battery_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery/adc_battery.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery_driver_node.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable husarion_ugv_battery_test_dual_battery_publisher[0m
+[ 55%] Built target husarion_ugv_battery_test_dual_battery_publisher
+[ 59%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery_publisher/dual_battery_publisher.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery_publisher/single_battery_publisher.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery_publisher/dual_battery_publisher.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery_publisher/single_battery_publisher.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_single.dir/src/battery/roboteq_battery.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_driver_node_adc_dual.dir/src/battery/roboteq_battery.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable husarion_ugv_battery_test_battery_driver_node_adc_dual[0m
+[ 68%] Built target husarion_ugv_battery_test_battery_driver_node_adc_dual
+[ 70%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_roboteq_battery.dir/src/battery/roboteq_battery.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_roboteq_battery.dir/test/battery/test_roboteq_battery.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_adc_data_reader.dir/test/test_adc_data_reader.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_single_battery_publisher.dir/src/battery/adc_battery.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_publisher.dir/test/battery_publisher/test_battery_publisher.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery_publisher.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_adc_battery.dir/test/battery/test_adc_battery.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_single_battery_publisher.dir/src/battery_publisher/single_battery_publisher.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_single_battery_publisher.dir/test/battery_publisher/test_single_battery_publisher.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_battery.dir/test/battery/test_battery.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_single_battery_publisher.dir/src/battery_publisher/battery_publisher.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable husarion_ugv_battery_test_battery_driver_node_adc_single[0m
+[ 88%] Built target husarion_ugv_battery_test_battery_driver_node_adc_single
+[ 90%] [32mBuilding CXX object CMakeFiles/husarion_ugv_battery_test_adc_battery.dir/src/battery/adc_battery.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable husarion_ugv_battery_test_adc_data_reader[0m
+[ 91%] Built target husarion_ugv_battery_test_adc_data_reader
+[ 93%] [32m[1mLinking CXX executable husarion_ugv_battery_test_adc_battery[0m
+[ 93%] Built target husarion_ugv_battery_test_adc_battery
+[ 95%] [32m[1mLinking CXX executable husarion_ugv_battery_test_battery_publisher[0m
+[ 96%] [32m[1mLinking CXX executable husarion_ugv_battery_test_roboteq_battery[0m
+[ 96%] Built target husarion_ugv_battery_test_battery_publisher
+[ 96%] Built target husarion_ugv_battery_test_roboteq_battery
+[ 98%] [32m[1mLinking CXX executable husarion_ugv_battery_test_battery[0m
+[ 98%] Built target husarion_ugv_battery_test_battery
+[100%] [32m[1mLinking CXX executable husarion_ugv_battery_test_single_battery_publisher[0m
+[100%] Built target husarion_ugv_battery_test_single_battery_publisher
+-- Install configuration: ""
+-- Installing: /husarion_ws/install/husarion_ugv_battery/include/husarion_ugv_battery
+-- Installing: /husarion_ws/install/husarion_ugv_battery/include/husarion_ugv_battery/battery_parameters.hpp
+-- Installing: /husarion_ws/install/husarion_ugv_battery/lib/husarion_ugv_battery/battery_driver_node
+-- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_battery/lib/husarion_ugv_battery/battery_driver_node" to ""
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/config
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/config/battery.yaml
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/launch
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/launch/battery.launch.py
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_battery
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_battery
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/environment/ament_prefix_path.sh
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/environment/ament_prefix_path.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/environment/path.sh
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/environment/path.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/local_setup.bash
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/local_setup.sh
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/local_setup.zsh
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/local_setup.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/package.dsv
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/ament_index/resource_index/packages/husarion_ugv_battery
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/cmake/husarion_ugv_batteryConfig.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/cmake/husarion_ugv_batteryConfig-version.cmake
+-- Installing: /husarion_ws/install/husarion_ugv_battery/share/husarion_ugv_battery/package.xml

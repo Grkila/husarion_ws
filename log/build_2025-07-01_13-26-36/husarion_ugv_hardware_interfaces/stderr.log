@@ -1,0 +1,67 @@
+Cloning into 'ep_libgpiod'...
+Cloning into 'upstream'...
+HEAD is now at 9068bb0 libgpiod v2.0.2
+autoreconf: export WARNINGS=
+autoreconf: Entering directory '.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+aclocal: warning: couldn't open directory 'm4': No such file or directory
+HEAD is now at c154acfa release v2.3.3
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: creating directory autostuff
+autoreconf: running: libtoolize --copy --force
+autoreconf: configure.ac: not using Intltool
+autoreconf: configure.ac: not using Gtkdoc
+autoreconf: running: aclocal --force -I m4
+autoreconf: running: /usr/bin/autoconf --force
+configure.ac:75: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:75: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:75: the top level
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:51: installing 'autostuff/ar-lib'
+configure.ac:51: installing 'autostuff/compile'
+configure.ac:57: installing 'autostuff/config.guess'
+configure.ac:57: installing 'autostuff/config.sub'
+configure.ac:37: installing 'autostuff/install-sh'
+configure.ac:37: installing 'autostuff/missing'
+bindings/cxx/Makefile.am: installing 'autostuff/depcomp'
+autoreconf: Leaving directory '.'
+configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+configure.ac:17: You should run autoupdate.
+./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+configure.ac:17: the top level
+configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:81: the top level
+configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:434: the top level
+configure.ac:17: installing './compile'
+configure.ac:6: installing './config.guess'
+configure.ac:6: installing './config.sub'
+configure.ac:7: installing './install-sh'
+configure.ac:7: installing './missing'
+configure.ac:606: installing './tap-driver.sh'
+src/can/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+make[3]: warning: -j0 forced in submake: resetting jobserver mode.
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-tap.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-util.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-can.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-co.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-io.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-ev.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-io2.la'(B[m
+libtool: [31mwarning(B[m: [1mrelinking 'liblely-coapp.la'(B[m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+libtool: [31mwarning(B[m: [1mrelinking 'libgpiodcxx.la'(B[m

@@ -1,0 +1,16 @@
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/launch/bringup.launch.py
+/husarion_ws/install/husarion_ugv_bringup/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_bringup
+/husarion_ws/install/husarion_ugv_bringup/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_bringup
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/environment/ament_prefix_path.sh
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/environment/ament_prefix_path.dsv
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/environment/path.sh
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/environment/path.dsv
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/local_setup.bash
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/local_setup.sh
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/local_setup.zsh
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/local_setup.dsv
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/package.dsv
+/husarion_ws/install/husarion_ugv_bringup/share/ament_index/resource_index/packages/husarion_ugv_bringup
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/cmake/husarion_ugv_bringupConfig.cmake
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/cmake/husarion_ugv_bringupConfig-version.cmake
+/husarion_ws/install/husarion_ugv_bringup/share/husarion_ugv_bringup/package.xml

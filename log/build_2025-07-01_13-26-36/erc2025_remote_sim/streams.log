@@ -1,0 +1,59 @@
+[0.241s] Invoking command in '/husarion_ws/build/erc2025_remote_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/erc2025_remote_sim -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/erc2025_remote_sim
+[0.345s] -- The C compiler identification is GNU 13.3.0
+[0.431s] -- The CXX compiler identification is GNU 13.3.0
+[0.445s] -- Detecting C compiler ABI info
+[0.526s] -- Detecting C compiler ABI info - done
+[0.535s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.535s] -- Detecting C compile features
+[0.535s] -- Detecting C compile features - done
+[0.544s] -- Detecting CXX compiler ABI info
+[0.641s] -- Detecting CXX compiler ABI info - done
+[0.652s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.652s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.658s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.793s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.934s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.023s] -- Configuring done (0.8s)
+[1.025s] -- Generating done (0.0s)
+[1.033s] -- Build files have been written to: /husarion_ws/build/erc2025_remote_sim
+[1.040s] Invoked command in '/husarion_ws/build/erc2025_remote_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/erc2025_remote_sim -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/erc2025_remote_sim
+[1.041s] Invoking command in '/husarion_ws/build/erc2025_remote_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/erc2025_remote_sim -- -j12 -l12
+[1.074s] Invoked command in '/husarion_ws/build/erc2025_remote_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/erc2025_remote_sim -- -j12 -l12
+[1.075s] Invoking command in '/husarion_ws/build/erc2025_remote_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/erc2025_remote_sim
+[1.082s] -- Install configuration: ""
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/start_locations.yaml
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/zed_modified.urdf.xacro
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/components.yaml
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/config/teleop.config
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch/sim_world.launch.py
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/launch/startsimulation.launch.py
+[1.082s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models
+[1.083s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024
+[1.083s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes
+[1.083s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/marsyard2024_processed.stl
+[1.089s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/marsyard2024_processed.dae
+[1.106s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/meshes/base_color_4K.png
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/model.sdf
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/models/marsyard2024/model.config
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/worlds
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/worlds/marsyard2024.world
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/env.sh
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/package_run_dependencies/erc2025_remote_sim
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/parent_prefix_path/erc2025_remote_sim
+[1.108s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/ament_prefix_path.sh
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/ament_prefix_path.dsv
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/path.sh
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/environment/path.dsv
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.bash
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.sh
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.zsh
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/local_setup.dsv
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/package.dsv
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/ament_index/resource_index/packages/erc2025_remote_sim
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/cmake/erc2025_remote_simConfig.cmake
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/cmake/erc2025_remote_simConfig-version.cmake
+[1.109s] -- Installing: /husarion_ws/install/erc2025_remote_sim/share/erc2025_remote_sim/package.xml
+[1.112s] Invoked command in '/husarion_ws/build/erc2025_remote_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/erc2025_remote_sim

@@ -1,0 +1,191 @@
+[0.010s] Invoking command in '/husarion_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/mecanum_drive_controller
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.111s] -- The CXX compiler identification is GNU 13.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.553s] -- Found controller_interface: 4.29.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.610s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.943s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.947s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.974s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.021s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.024s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.037s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.040s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.047s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.057s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.297s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.304s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.329s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.354s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[1.361s] -- Found tf2_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.466s] -- Configuring done (1.5s)
+[1.490s] -- Generating done (0.0s)
+[1.494s] -- Build files have been written to: /husarion_ws/build/mecanum_drive_controller
+[1.503s] Invoked command in '/husarion_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/mecanum_drive_controller
+[1.504s] Invoking command in '/husarion_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/mecanum_drive_controller -- -j12 -l12
+[1.545s] [ 16%] Running `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `
+[2.660s] [ 33%] Creating deprecated header file /husarion_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp
+[2.693s] [ 33%] Built target mecanum_drive_controller_parameters
+[2.710s] [ 50%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o
+[2.712s] [ 66%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o
+[2.712s] [ 83%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o
+[6.015s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)’:
+[6.015s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:115:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::get(T&) const [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [-Wdeprecated-declarations]
+[6.015s]   115 |   received_velocity_msg_ptr_.get(last_command_msg);
+[6.015s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+[6.021s] In file included from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:45,
+[6.021s]                  from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30:
+[6.021s] /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:315:59: note: declared here
+[6.021s]   315 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> get(T & in) const
+[6.021s]       |                                                           ^~~
+[6.021s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:152:101: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+[6.021s]   152 |     const double front_left_feedback = registered_front_left_wheel_handle_->feedback.get().get_value();
+[6.021s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+[6.021s] In file included from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28,
+[6.021s]                  from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21,
+[6.021s]                  from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:34:
+[6.022s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+[6.022s]    94 |   double get_value() const
+[6.022s]       |          ^~~~~~~~~
+[6.022s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:153:103: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+[6.022s]   153 |     const double front_right_feedback = registered_front_right_wheel_handle_->feedback.get().get_value();
+[6.022s]       |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+[6.022s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+[6.022s]    94 |   double get_value() const
+[6.022s]       |          ^~~~~~~~~
+[6.022s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:154:99: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+[6.022s]   154 |     const double rear_left_feedback = registered_rear_left_wheel_handle_->feedback.get().get_value();
+[6.022s]       |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+[6.023s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+[6.023s]    94 |   double get_value() const
+[6.023s]       |          ^~~~~~~~~
+[6.023s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:155:101: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+[6.023s]   155 |     const double rear_right_feedback = registered_rear_right_wheel_handle_->feedback.get().get_value();
+[6.023s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+[6.023s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+[6.023s]    94 |   double get_value() const
+[6.023s]       |          ^~~~~~~~~
+[6.058s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:264:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.058s]   264 |   registered_front_left_wheel_handle_->velocity.get().set_value(velocity_front_left);
+[6.059s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+[6.059s] In file included from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27:
+[6.059s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.059s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.059s]       |                      ^~~~~~~~~
+[6.059s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:265:65: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.059s]   265 |   registered_front_right_wheel_handle_->velocity.get().set_value(velocity_front_right);
+[6.059s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+[6.059s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.059s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.059s]       |                      ^~~~~~~~~
+[6.059s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:266:63: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.059s]   266 |   registered_rear_left_wheel_handle_->velocity.get().set_value(velocity_rear_left);
+[6.060s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[6.060s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.060s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.060s]       |                      ^~~~~~~~~
+[6.060s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:267:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.060s]   267 |   registered_rear_right_wheel_handle_->velocity.get().set_value(velocity_rear_right);
+[6.060s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+[6.060s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.060s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.060s]       |                      ^~~~~~~~~
+[6.073s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::on_configure(const rclcpp_lifecycle::State&)’:
+[6.073s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:410:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+[6.073s]   410 |   received_velocity_msg_ptr_.set(std::make_shared<Twist>(empty_twist));
+[6.073s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.077s] /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+[6.078s]   262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+[6.078s]       |                                                           ^~~
+[6.079s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In lambda function:
+[6.079s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:430:41: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+[6.079s]   430 |           received_velocity_msg_ptr_.set(std::move(msg));
+[6.079s]       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+[6.079s] /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+[6.079s]   262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+[6.079s]       |                                                           ^~~
+[6.168s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::on_cleanup(const rclcpp_lifecycle::State&)’:
+[6.169s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:517:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+[6.169s]   517 |   received_velocity_msg_ptr_.set(std::make_shared<Twist>());
+[6.169s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.169s] /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+[6.169s]   262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+[6.169s]       |                                                           ^~~
+[6.176s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘void mecanum_drive_controller::MecanumDriveController::halt()’:
+[6.176s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:558:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.176s]   558 |   registered_front_left_wheel_handle_->velocity.get().set_value(0.0);
+[6.176s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[6.176s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.176s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.176s]       |                      ^~~~~~~~~
+[6.176s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:559:65: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.176s]   559 |   registered_front_right_wheel_handle_->velocity.get().set_value(0.0);
+[6.176s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[6.176s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.177s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.177s]       |                      ^~~~~~~~~
+[6.177s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:560:63: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.177s]   560 |   registered_rear_left_wheel_handle_->velocity.get().set_value(0.0);
+[6.177s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[6.177s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.177s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.177s]       |                      ^~~~~~~~~
+[6.177s] /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:561:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[6.177s]   561 |   registered_rear_right_wheel_handle_->velocity.get().set_value(0.0);
+[6.177s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[6.178s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+[6.178s]   113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+[6.178s]       |                      ^~~~~~~~~
+[25.816s] [100%] Linking CXX shared library libmecanum_drive_controller.so
+[26.268s] [100%] Built target mecanum_drive_controller
+[26.300s] Invoked command in '/husarion_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/mecanum_drive_controller -- -j12 -l12
+[26.304s] Invoking command in '/husarion_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/mecanum_drive_controller
+[26.328s] -- Install configuration: "Release"
+[26.329s] -- Execute custom install script
+[26.334s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[26.362s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_plugin.xml
+[26.441s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[26.468s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[26.481s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[26.494s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[26.507s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[26.519s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[26.532s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[26.546s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[26.562s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[26.576s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[26.593s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[26.605s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[26.618s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[26.644s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[26.661s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[26.689s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[26.715s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[26.738s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[26.752s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[26.764s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.778s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[26.790s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[26.804s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[26.817s] -- Symlinking: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[26.831s] -- Installing: /husarion_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[26.833s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[26.834s] -- Installing: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[26.834s] -- Installing: /husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-release.cmake
+[26.835s] Invoked command in '/husarion_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/mecanum_drive_controller

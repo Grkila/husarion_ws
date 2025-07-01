@@ -1,0 +1,107 @@
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)’:
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:115:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::get(T&) const [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [-Wdeprecated-declarations]
+  115 |   received_velocity_msg_ptr_.get(last_command_msg);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+In file included from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:45,
+                 from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30:
+/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:315:59: note: declared here
+  315 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> get(T & in) const
+      |                                                           ^~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:152:101: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+  152 |     const double front_left_feedback = registered_front_left_wheel_handle_->feedback.get().get_value();
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:28,
+                 from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21,
+                 from /husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:34:
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+   94 |   double get_value() const
+      |          ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:153:103: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+  153 |     const double front_right_feedback = registered_front_right_wheel_handle_->feedback.get().get_value();
+      |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+   94 |   double get_value() const
+      |          ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:154:99: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+  154 |     const double rear_left_feedback = registered_rear_left_wheel_handle_->feedback.get().get_value();
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+   94 |   double get_value() const
+      |          ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:155:101: warning: ‘double hardware_interface::LoanedStateInterface::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+  155 |     const double rear_right_feedback = registered_rear_right_wheel_handle_->feedback.get().get_value();
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10: note: declared here
+   94 |   double get_value() const
+      |          ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:264:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  264 |   registered_front_left_wheel_handle_->velocity.get().set_value(velocity_front_left);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27:
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:265:65: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  265 |   registered_front_right_wheel_handle_->velocity.get().set_value(velocity_front_right);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:266:63: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  266 |   registered_rear_left_wheel_handle_->velocity.get().set_value(velocity_rear_left);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:267:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  267 |   registered_rear_right_wheel_handle_->velocity.get().set_value(velocity_rear_right);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::on_configure(const rclcpp_lifecycle::State&)’:
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:410:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+  410 |   received_velocity_msg_ptr_.set(std::make_shared<Twist>(empty_twist));
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+      |                                                           ^~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In lambda function:
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:430:41: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+  430 |           received_velocity_msg_ptr_.set(std::move(msg));
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+      |                                                           ^~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘virtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::on_cleanup(const rclcpp_lifecycle::State&)’:
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:517:33: warning: ‘std::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [-Wdeprecated-declarations]
+  517 |   received_velocity_msg_ptr_.set(std::make_shared<Twist>());
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:262:59: note: declared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> set(const T & value)
+      |                                                           ^~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp: In member function ‘void mecanum_drive_controller::MecanumDriveController::halt()’:
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:558:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  558 |   registered_front_left_wheel_handle_->velocity.get().set_value(0.0);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:559:65: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  559 |   registered_front_right_wheel_handle_->velocity.get().set_value(0.0);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:560:63: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  560 |   registered_rear_left_wheel_handle_->velocity.get().set_value(0.0);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~
+/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:561:64: warning: ignoring return value of ‘bool hardware_interface::LoanedCommandInterface::set_value(const T&, unsigned int) [with T = double]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  561 |   registered_rear_right_wheel_handle_->velocity.get().set_value(0.0);
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22: note: declared here
+  113 |   [[nodiscard]] bool set_value(const T & value, unsigned int max_tries = 10)
+      |                      ^~~~~~~~~

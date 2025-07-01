@@ -1,0 +1,178 @@
+[0.066s] Invoking command in '/husarion_ws/build/husarion_ugv_diagnostics': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_diagnostics -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_diagnostics
+[0.108s] -- Configuring done (0.0s)
+[0.111s] -- Generating done (0.0s)
+[0.113s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics
+[0.115s] Invoked command in '/husarion_ws/build/husarion_ugv_diagnostics' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_diagnostics -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_diagnostics
+[0.116s] Invoking command in '/husarion_ws/build/husarion_ugv_diagnostics': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_diagnostics -- -j12 -l12
+[0.157s] [  6%] [34m[1mCreating directories for 'ep_cppuprofile'[0m
+[0.181s] [ 12%] [34m[1mPerforming download step (git clone) for 'ep_cppuprofile'[0m
+[0.198s] Cloning into 'ep_cppuprofile'...
+[0.966s] HEAD is now at bf78ed1 Fix broken header installation (#9)
+[1.008s] [ 18%] [34m[1mPerforming update step for 'ep_cppuprofile'[0m
+[1.030s] [ 25%] [34m[1mNo patch step for 'ep_cppuprofile'[0m
+[1.050s] [ 31%] [34m[1mPerforming configure step for 'ep_cppuprofile'[0m
+[1.058s] [33mCMake Warning (dev) at CMakeLists.txt:1 (PROJECT):
+[1.058s]   cmake_minimum_required() should be called prior to this top-level project()
+[1.058s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[1.058s]   both commands.
+[1.058s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.058s] [0m
+[1.104s] -- The C compiler identification is GNU 13.3.0
+[1.174s] -- The CXX compiler identification is GNU 13.3.0
+[1.191s] -- Detecting C compiler ABI info
+[1.259s] -- Detecting C compiler ABI info - done
+[1.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.273s] -- Detecting C compile features
+[1.274s] -- Detecting C compile features - done
+[1.281s] -- Detecting CXX compiler ABI info
+[1.361s] -- Detecting CXX compiler ABI info - done
+[1.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.369s] -- Detecting CXX compile features
+[1.370s] -- Detecting CXX compile features - done
+[1.370s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (CMAKE_MINIMUM_REQUIRED):
+[1.370s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.371s]   CMake.
+[1.371s] 
+[1.371s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.371s]   CMake that the project does not need compatibility with older versions.
+[1.371s] 
+[1.371s] [0m
+[1.371s] [0mCMake Deprecation Warning at lib/CMakeLists.txt:2 (CMAKE_MINIMUM_REQUIRED):
+[1.371s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.371s]   CMake.
+[1.371s] 
+[1.371s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.372s]   CMake that the project does not need compatibility with older versions.
+[1.372s] 
+[1.372s] [0m
+[1.372s] -- Configuring done (0.3s)
+[1.374s] -- Generating done (0.0s)
+[1.374s] [33mCMake Warning:
+[1.374s]   Manually-specified variables were not used by the project:
+[1.374s] 
+[1.375s]     CMAKE_POLICY_VERSION_MINIMUM
+[1.375s] 
+[1.375s] [0m
+[1.375s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics/ep_cppuprofile/src/ep_cppuprofile
+[1.392s] [ 37%] [34m[1mPerforming build step for 'ep_cppuprofile'[0m
+[1.429s] [ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/uprofile.cpp.o[0m
+[1.429s] [ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/util/timer.cpp.o[0m
+[1.429s] [ 60%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/uprofileimpl.cpp.o[0m
+[1.432s] [ 80%] [32mBuilding CXX object lib/CMakeFiles/cppuprofile.dir/util/cpumonitor.cpp.o[0m
+[3.441s] [100%] [32m[1mLinking CXX shared library libcppuprofile.so[0m
+[3.588s] [100%] Built target cppuprofile
+[3.620s] [ 43%] [34m[1mPerforming install step for 'ep_cppuprofile'[0m
+[3.622s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[3.690s] [100%] Built target cppuprofile
+[3.710s] [36mInstall the project...[0m
+[3.718s] -- Install configuration: ""
+[3.718s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/api.h
+[3.718s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/uprofile.h
+[3.718s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/timestampunit.h
+[3.718s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/cppuprofile/igpumonitor.h
+[3.718s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/libcppuprofile.so
+[3.719s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/pkgconfig/cppuprofile.pc
+[3.736s] [ 50%] [34m[1mCompleted 'ep_cppuprofile'[0m
+[3.778s] [ 50%] Built target ep_cppuprofile
+[3.798s] [ 56%] [34m[1mCreating directories for 'ep_husarion_ugv_diagnostics'[0m
+[3.822s] [ 62%] [34m[1mNo download step for 'ep_husarion_ugv_diagnostics'[0m
+[3.845s] [ 68%] [34m[1mNo update step for 'ep_husarion_ugv_diagnostics'[0m
+[3.877s] [ 75%] [34m[1mNo patch step for 'ep_husarion_ugv_diagnostics'[0m
+[3.899s] [ 81%] [34m[1mPerforming configure step for 'ep_husarion_ugv_diagnostics'[0m
+[3.945s] -- The C compiler identification is GNU 13.3.0
+[3.997s] -- The CXX compiler identification is GNU 13.3.0
+[4.009s] -- Detecting C compiler ABI info
+[4.087s] -- Detecting C compiler ABI info - done
+[4.094s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.094s] -- Detecting C compile features
+[4.094s] -- Detecting C compile features - done
+[4.103s] -- Detecting CXX compiler ABI info
+[5.213s] -- Detecting CXX compiler ABI info - done
+[5.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.394s] -- Detecting CXX compile features
+[5.403s] -- Detecting CXX compile features - done
+[5.587s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.001s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[12.401s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[13.589s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[13.989s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.305s] -- Found diagnostic_updater: 4.2.4 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[17.682s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[17.720s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[19.490s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.798s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[20.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.811s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[23.092s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[23.895s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[24.720s] -- Found husarion_ugv_msgs: 2.3.0 (/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+[25.306s] -- Found husarion_ugv_utils: 2.3.0 (/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+[28.489s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[28.502s] -- Checking for module 'cppuprofile'
+[28.713s] --   Found cppuprofile, version 
+[29.388s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[29.486s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[29.580s] -- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[29.671s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[31.699s] -- Found PythonExtra: /usr/bin/python3  
+[31.812s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[31.993s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[32.002s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[33.910s] -- Configuring done (30.0s)
+[34.708s] -- Generating done (0.5s)
+[34.885s] -- Build files have been written to: /husarion_ws/build/husarion_ugv_diagnostics
+[35.299s] [ 87%] [34m[1mPerforming build step for 'ep_husarion_ugv_diagnostics'[0m
+[36.018s] [  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /husarion_ws/build/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics/system_monitor_parameters.hpp /husarion_ws/src/husarion_ugv_ros/husarion_ugv_diagnostics/src/system_monitor_parameters.yaml `[0m
+[48.604s] [ 13%] [34m[1mCreating deprecated header file /husarion_ws/build/husarion_ugv_diagnostics/include/system_monitor_parameters.hpp[0m
+[49.285s] [ 13%] Built target system_monitor_parameters
+[49.514s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[98.084s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[109.278s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[109.508s] [ 33%] Built target gmock
+[109.607s] [ 40%] [32mBuilding CXX object CMakeFiles/system_monitor_node.dir/src/main.cpp.o[0m
+[115.277s] [ 46%] [32mBuilding CXX object CMakeFiles/system_monitor_node.dir/src/system_monitor_node.cpp.o[0m
+[120.557s] [ 53%] [32m[1mLinking CXX executable system_monitor_node[0m
+[120.740s] [ 53%] Built target system_monitor_node
+[120.758s] [ 60%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[121.602s] [ 66%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[121.631s] [ 66%] Built target gmock_main
+[121.650s] [ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_system_monitor.dir/test/unit/test_system_monitor_node.cpp.o[0m
+[125.606s] [ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_system_monitor.dir/src/system_monitor_node.cpp.o[0m
+[130.037s] [ 86%] [32m[1mLinking CXX executable husarion_ugv_diagnostics_test_system_monitor[0m
+[130.324s] [ 86%] Built target husarion_ugv_diagnostics_test_system_monitor
+[130.344s] [ 93%] [32mBuilding CXX object CMakeFiles/husarion_ugv_diagnostics_test_filesystem.dir/test/unit/test_filesystem.cpp.o[0m
+[131.191s] [100%] [32m[1mLinking CXX executable husarion_ugv_diagnostics_test_filesystem[0m
+[131.404s] [100%] Built target husarion_ugv_diagnostics_test_filesystem
+[131.427s] [34m[1mNo install step for 'ep_husarion_ugv_diagnostics'[0m
+[131.450s] [34m[1mCompleted 'ep_husarion_ugv_diagnostics'[0m
+[131.480s] Built target ep_husarion_ugv_diagnostics
+[131.491s] Invoked command in '/husarion_ws/build/husarion_ugv_diagnostics' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_diagnostics -- -j12 -l12
+[131.492s] Invoking command in '/husarion_ws/build/husarion_ugv_diagnostics': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_diagnostics
+[131.499s] -- Install configuration: ""
+[131.499s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics
+[131.499s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/include/husarion_ugv_diagnostics/system_monitor_parameters.hpp
+[131.499s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/lib/husarion_ugv_diagnostics/system_monitor_node
+[131.500s] -- Set non-toolchain portion of runtime path of "/husarion_ws/install/husarion_ugv_diagnostics/lib/husarion_ugv_diagnostics/system_monitor_node" to ""
+[131.500s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/config
+[131.501s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/config/system_monitor.yaml
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/launch
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/launch/system_monitor.launch.py
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_diagnostics
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_diagnostics
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/ament_prefix_path.sh
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/ament_prefix_path.dsv
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/path.sh
+[131.502s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/environment/path.dsv
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.bash
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.sh
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.zsh
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/local_setup.dsv
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/package.dsv
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/ament_index/resource_index/packages/husarion_ugv_diagnostics
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/ament_cmake_export_dependencies-extras.cmake
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/husarion_ugv_diagnosticsConfig.cmake
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/cmake/husarion_ugv_diagnosticsConfig-version.cmake
+[131.503s] -- Installing: /husarion_ws/install/husarion_ugv_diagnostics/share/husarion_ugv_diagnostics/package.xml
+[131.506s] Invoked command in '/husarion_ws/build/husarion_ugv_diagnostics' returned '0': CMAKE_PREFIX_PATH=/husarion_ws/install/husarion_ugv_utils:/husarion_ws/install/husarion_ugv_msgs:/husarion_ws/install/husarion_ugv:/husarion_ws/install/husarion_ugv_gazebo:/husarion_ws/install/husarion_ugv_controller:/husarion_ws/install/husarion_ugv_description:/husarion_ws/install/ros_components_description:/husarion_ws/install/mecanum_drive_controller:/husarion_ws/install/husarion_ugv_manager:/husarion_ws/install/husarion_ugv_localization:/husarion_ws/install/husarion_ugv_lights:/husarion_ws/install/husarion_gz_worlds:/husarion_ws/install/behaviortree_ros2:/husarion_ws/install/btcpp_ros2_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/husarion_ws/install/husarion_ugv_msgs/lib:/husarion_ws/install/husarion_ugv_gazebo/lib:/husarion_ws/install/mecanum_drive_controller/lib:/husarion_ws/install/husarion_ugv_manager/lib:/husarion_ws/install/husarion_ugv_lights/lib:/husarion_ws/install/behaviortree_ros2/lib:/husarion_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_diagnostics

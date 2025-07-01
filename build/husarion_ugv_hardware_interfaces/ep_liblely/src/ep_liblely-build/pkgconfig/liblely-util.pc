@@ -1,0 +1,12 @@
+prefix=/husarion_ws/install/husarion_ugv_hardware_interfaces
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: liblely-util
+Description: Lely Utilities library
+URL: https://gitlab.com/lely_industries/lely-core
+Version: 2.3.3
+Requires: liblely-libc >= 2.3.3
+Cflags: -I${includedir}
+Libs: -L${libdir} -llely-util

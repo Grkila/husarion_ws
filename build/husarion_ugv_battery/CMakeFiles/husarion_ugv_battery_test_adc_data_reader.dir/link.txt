@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/husarion_ugv_battery_test_adc_data_reader.dir/test/test_adc_data_reader.cpp.o -o husarion_ugv_battery_test_adc_data_reader  gtest/libgtest_main.a gtest/libgtest.a -pthread 

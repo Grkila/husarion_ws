@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/CMakeFiles/ep_libgpiod"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/CMakeFiles/ep_libgpiod.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/CMakeFiles/ep_libgpiod-complete.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-build.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-configure.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-download.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-install.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-mkdir.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-patch.rule"
+		},
+		{
+			"file" : "/husarion_ws/build/husarion_ugv_hardware_interfaces/ep_libgpiod/src/ep_libgpiod-stamp/ep_libgpiod-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ep_libgpiod"
+		],
+		"name" : "ep_libgpiod"
+	}
+}

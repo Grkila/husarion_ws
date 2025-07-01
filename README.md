@@ -25,70 +25,7 @@ git checkout mars_yard_v1
 docker-compose up --build
 ```
 
-### Option 2: Use Pre-built Docker Image
-
-```bash
-# Pull the pre-built image (if available)
-docker pull your-registry/erc2025-mars-yard:latest
-
-# Run the container
-docker run -it --rm \
-  --name erc2025-sim \
-  -e DISPLAY=$DISPLAY \
-  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-  --device=/dev/dri:/dev/dri \
-  -p 8080:8080 \
-  your-registry/erc2025-mars-yard:latest
-```
-
-## 🏗️ Manual Setup in Docker Container
-
-### Step 1: Create and Start Container
-
-```bash
-# Create a ROS 2 Humble container with GUI support
-docker run -it --rm \
-  --name erc2025-workspace \
-  -e DISPLAY=$DISPLAY \
-  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-  --device=/dev/dri:/dev/dri \
-  -p 8080:8080 \
-  osrf/ros:humble-desktop-full-jammy \
-  bash
-```
-
-### Step 2: Install Dependencies
-
-```bash
-# Update package lists
-apt update && apt upgrade -y
-
-# Install essential tools
-apt install -y \
-  git \
-  wget \
-  curl \
-  vim \
-  nano \
-  python3-pip \
-  python3-colcon-common-extensions \
-  python3-rosdep \
-  python3-vcstool \
-  ros-humble-gazebo-* \
-  ros-humble-navigation2 \
-  ros-humble-nav2-bringup \
-  ros-humble-robot-localization \
-  ros-humble-xacro \
-  ros-humble-joint-state-publisher \
-  ros-humble-robot-state-publisher \
-  ros-humble-rviz2 \
-  ros-humble-teleop-twist-keyboard
-
-# Initialize rosdep
-rosdep init && rosdep update
-```
-
-### Step 3: Download the Workspace
+### Download the Workspace
 
 ```bash
 # Create workspace directory
@@ -105,7 +42,7 @@ git checkout mars_yard_v1
 source /opt/ros/humble/setup.bash
 ```
 
-### Step 4: Install Package Dependencies
+### Install Package Dependencies
 
 ```bash
 # Install dependencies using rosdep
@@ -115,7 +52,7 @@ rosdep install --from-paths src --ignore-src -r -y
 pip3 install -r requirements.txt  # if exists
 ```
 
-### Step 5: Build the Workspace
+### Build the Workspace
 
 ```bash
 # Build all packages
@@ -276,34 +213,3 @@ gz physics -u 0.5  # Run at 50% real-time
 - 10GB+ free disk space
 - Dedicated GPU with OpenGL 4.5+
 - SSD storage
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- European Rover Challenge organizers
-- Husarion for the UGV platform
-- ROS 2 and Gazebo communities
-- All contributors to this project
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue on GitHub
-- Check the troubleshooting section above
-- Consult the [ROS 2 documentation](https://docs.ros.org/en/humble/)
-- Visit [Gazebo tutorials](https://gazebosim.org/tutorials)
-
----
-
-**Happy Roving! 🚀🔴**

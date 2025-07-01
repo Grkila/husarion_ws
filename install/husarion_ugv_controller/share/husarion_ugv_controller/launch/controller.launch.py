@@ -1,1 +1,0 @@
-/husarion_ws/src/husarion_ugv_ros/husarion_ugv_controller/launch/controller.launch.py

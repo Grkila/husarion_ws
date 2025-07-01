@@ -1,8 +1,0 @@
-Name: cppuprofile
-Description: CppProfiling library
-Version: 
-prefix=/husarion_ws/install/husarion_ugv_diagnostics
-includedir=${prefix}/include/cppuprofile
-libdir=${prefix}/lib
-Libs: -L${libdir} -lcppuprofile
-Cflags: -I${includedir}

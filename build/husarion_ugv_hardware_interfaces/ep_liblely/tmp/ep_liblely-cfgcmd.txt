@@ -1,1 +1,0 @@
-cmd='autoreconf;-i;<SOURCE_DIR>;COMMAND;env;CFLAGS=-DNDEBUG;CXXFLAGS=-DNDEBUG;<SOURCE_DIR>/configure;--prefix=<INSTALL_DIR>;--disable-python;--disable-tests;--disable-static'

@@ -1,1 +1,0 @@
-/husarion_ws/build/husarion_ugv_msgs/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/charging_status__rosidl_typesupport_fastrtps_cpp.hpp

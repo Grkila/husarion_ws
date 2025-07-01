@@ -1,1 +1,0 @@
-/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/include/husarion_ugv_lights/led_components/segment_queue_layer.hpp

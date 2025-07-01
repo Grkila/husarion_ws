@@ -1,4 +1,0 @@
-Invoking command in '/husarion_ws/build/erc2025_remote_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/erc2025_remote_sim -- -j12 -l12
-Invoked command in '/husarion_ws/build/erc2025_remote_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/erc2025_remote_sim -- -j12 -l12
-Invoking command in '/husarion_ws/build/erc2025_remote_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/erc2025_remote_sim
-Invoked command in '/husarion_ws/build/erc2025_remote_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/erc2025_remote_sim

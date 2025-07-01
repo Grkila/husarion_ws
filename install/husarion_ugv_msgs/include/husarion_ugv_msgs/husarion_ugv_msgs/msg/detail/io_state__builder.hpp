@@ -1,1 +1,0 @@
-/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_cpp/husarion_ugv_msgs/msg/detail/io_state__builder.hpp

@@ -1,1 +1,0 @@
-/husarion_ws/build/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp

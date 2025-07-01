@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/husarion_ugv_hardware_interfaces_test_utils.dir/test/test_utils.cpp.o CMakeFiles/husarion_ugv_hardware_interfaces_test_utils.dir/src/utils.cpp.o -o husarion_ugv_hardware_interfaces_test_utils  gmock/libgmock_main.a gmock/libgmock.a -pthread 

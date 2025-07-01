@@ -1,4 +1,0 @@
-source;share/erc2025_remote_sim/local_setup.bash
-source;share/erc2025_remote_sim/local_setup.dsv
-source;share/erc2025_remote_sim/local_setup.sh
-source;share/erc2025_remote_sim/local_setup.zsh

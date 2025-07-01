@@ -1,6 +1,0 @@
-Invoking command in '/husarion_ws/build/husarion_ugv_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_utils -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_utils
-Invoked command in '/husarion_ws/build/husarion_ugv_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /husarion_ws/src/husarion_ugv_ros/husarion_ugv_utils -DCMAKE_INSTALL_PREFIX=/husarion_ws/install/husarion_ugv_utils
-Invoking command in '/husarion_ws/build/husarion_ugv_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_utils -- -j12 -l12
-Invoked command in '/husarion_ws/build/husarion_ugv_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /husarion_ws/build/husarion_ugv_utils -- -j12 -l12
-Invoking command in '/husarion_ws/build/husarion_ugv_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_utils
-Invoked command in '/husarion_ws/build/husarion_ugv_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /husarion_ws/build/husarion_ugv_utils

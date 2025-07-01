@@ -1,9 +1,0 @@
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/uninstall.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/husarion_ugv_bringup_uninstall.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/test.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/edit_cache.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/rebuild_cache.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/list_install_components.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/install.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/install/local.dir
-/husarion_ws/build/husarion_ugv_bringup/CMakeFiles/install/strip.dir

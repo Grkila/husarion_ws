@@ -1,1 +1,0 @@
-cmd='sh;-c;<SOURCE_DIR>/autogen.sh --prefix=<INSTALL_DIR> --enable-tools=no --enable-bindings-cxx'
